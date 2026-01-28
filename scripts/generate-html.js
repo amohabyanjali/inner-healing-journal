@@ -27,10 +27,7 @@ class JournalHTMLGenerator {
       </div>
       <div class="cover-content">
         <div class="cover-icon">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M50 88 C25 65, 5 45, 5 30 C5 15, 20 5, 35 5 C42 5, 48 10, 50 15 C52 10, 58 5, 65 5 C80 5, 95 15, 95 30 C95 45, 75 65, 50 88Z" fill="currentColor"/>
-            <circle cx="50" cy="45" r="15" fill="white" opacity="0.3"/>
-          </svg>
+          <img src="../content/images/amoha-logo-icon.png" alt="Amoha" class="amoha-logo">
         </div>
         <h1 class="cover-title">
           <span class="cover-title-main">Inner Child</span>
