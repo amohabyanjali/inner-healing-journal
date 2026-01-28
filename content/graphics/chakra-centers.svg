@@ -1,0 +1,63 @@
+<svg width="400" height="550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .chakra-text { font-family: 'Lato', Arial, sans-serif; font-size: 16px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <text x="200" y="30" text-anchor="middle" font-family="Playfair Display, Georgia" font-size="22"
+        fill="#7B3FF2" font-weight="bold">
+    Chakra Energy Centers
+  </text>
+
+
+  <!-- Crown Chakra -->
+  <circle cx="200" cy="50" r="25" fill="#7B3FF2" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="56" class="chakra-text" fill="#7B3FF2">
+    Crown
+  </text>
+  <line x1="175" y1="50" x2="240" y2="50" stroke="#7B3FF2" stroke-width="1" opacity="0.3"/>
+
+  <!-- Third Eye Chakra -->
+  <circle cx="200" cy="120" r="25" fill="#5D5FEF" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="126" class="chakra-text" fill="#5D5FEF">
+    Third Eye
+  </text>
+  <line x1="175" y1="120" x2="240" y2="120" stroke="#5D5FEF" stroke-width="1" opacity="0.3"/>
+
+  <!-- Throat Chakra -->
+  <circle cx="200" cy="190" r="25" fill="#4ECDC4" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="196" class="chakra-text" fill="#4ECDC4">
+    Throat
+  </text>
+  <line x1="175" y1="190" x2="240" y2="190" stroke="#4ECDC4" stroke-width="1" opacity="0.3"/>
+
+  <!-- Heart Chakra -->
+  <circle cx="200" cy="260" r="25" fill="#E89AC7" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="266" class="chakra-text" fill="#E89AC7">
+    Heart
+  </text>
+  <line x1="175" y1="260" x2="240" y2="260" stroke="#E89AC7" stroke-width="1" opacity="0.3"/>
+
+  <!-- Solar Plexus Chakra -->
+  <circle cx="200" cy="330" r="25" fill="#D4AF37" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="336" class="chakra-text" fill="#D4AF37">
+    Solar Plexus
+  </text>
+  <line x1="175" y1="330" x2="240" y2="330" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- Sacral Chakra -->
+  <circle cx="200" cy="400" r="25" fill="#E67E22" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="406" class="chakra-text" fill="#E67E22">
+    Sacral
+  </text>
+  <line x1="175" y1="400" x2="240" y2="400" stroke="#E67E22" stroke-width="1" opacity="0.3"/>
+
+  <!-- Root Chakra -->
+  <circle cx="200" cy="470" r="25" fill="#C72C35" opacity="0.7" stroke="#333333" stroke-width="2"/>
+  <text x="250" y="476" class="chakra-text" fill="#C72C35">
+    Root
+  </text>
+  <line x1="175" y1="470" x2="240" y2="470" stroke="#C72C35" stroke-width="1" opacity="0.3"/>
+
+</svg>

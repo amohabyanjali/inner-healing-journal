@@ -1,0 +1,80 @@
+{
+  "brand": "Amoha By Anjali",
+  "tagline": "Not just Fortune telling but Soul awakening",
+  "colorPalette": {
+    "primary": {
+      "name": "Sacred Purple",
+      "hex": "#7B3FF2",
+      "rgb": "rgb(123, 63, 242)",
+      "usage": "Main brand color, headers, primary CTAs"
+    },
+    "secondary": {
+      "name": "Divine Gold",
+      "hex": "#D4AF37",
+      "rgb": "rgb(212, 175, 55)",
+      "usage": "Accent color, highlights, premium touches"
+    },
+    "accent1": {
+      "name": "Soul Teal",
+      "hex": "#4ECDC4",
+      "rgb": "rgb(78, 205, 196)",
+      "usage": "Calming accents, secondary elements"
+    },
+    "accent2": {
+      "name": "Heart Rose",
+      "hex": "#E89AC7",
+      "rgb": "rgb(232, 154, 199)",
+      "usage": "Compassion, love, feminine energy"
+    },
+    "accent3": {
+      "name": "Indigo Wisdom",
+      "hex": "#5D5FEF",
+      "rgb": "rgb(93, 95, 239)",
+      "usage": "Intuition, third eye, deeper insights"
+    },
+    "neutrals": {
+      "white": "#FFFFFF",
+      "cream": "#FFF8E7",
+      "lightGray": "#F5F5F5",
+      "mediumGray": "#888888",
+      "darkGray": "#333333"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, #7B3FF2 0%, #5D5FEF 100%)",
+      "warm": "linear-gradient(135deg, #E89AC7 0%, #D4AF37 100%)",
+      "calming": "linear-gradient(135deg, #4ECDC4 0%, #7B3FF2 100%)"
+    }
+  },
+  "typography": {
+    "headings": {
+      "fontFamily": "'Playfair Display', 'Georgia', serif",
+      "color": "#7B3FF2"
+    },
+    "body": {
+      "fontFamily": "'Lato', 'Arial', sans-serif",
+      "color": "#333333"
+    },
+    "accent": {
+      "fontFamily": "'Montserrat', 'Arial Rounded MT Bold', sans-serif",
+      "color": "#D4AF37"
+    }
+  },
+  "brandElements": {
+    "logo": "amoha-logo.png",
+    "logoColors": "Sacred geometry with purple/gold/teal",
+    "decorativeSymbols": ["✦", "◈", "✧", "⟡", "⬡"],
+    "sacredPatterns": "Mandala, flower of life, geometric patterns"
+  },
+  "contact": {
+    "email": "amohabyanjali@gmail.com",
+    "website": "amohabyanjali.com"
+  },
+  "notes": [
+    "Purple (#7B3FF2) - Crown chakra, spiritual awakening, higher consciousness",
+    "Gold (#D4AF37) - Divine wisdom, solar plexus, manifestation",
+    "Teal (#4ECDC4) - Throat chakra, authentic expression, calm healing",
+    "Rose (#E89AC7) - Heart chakra, self-love, compassion for inner child",
+    "Indigo (#5D5FEF) - Third eye, intuition, inner knowing",
+    "These colors can be adjusted based on actual website colors once confirmed"
+  ]
+}

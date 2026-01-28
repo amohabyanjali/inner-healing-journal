@@ -1,0 +1,19 @@
+# Student List Template - Amoha By Anjali
+# Inner Child Healing Journal Batch Generation
+#
+# Instructions:
+# 1. Add one student name per line
+# 2. Use full names for best results (e.g., "Priya Sharma")
+# 3. Lines starting with # are comments and will be ignored
+# 4. Empty lines are also ignored
+#
+# Example names below - replace with your actual student names:
+
+Priya Sharma
+Aarav Patel
+Ananya Gupta
+Rohan Mehta
+Diya Singh
+
+# Add more names below:
+

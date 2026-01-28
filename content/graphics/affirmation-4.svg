@@ -1,0 +1,21 @@
+<svg width="350" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7DA8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B5B95;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="350" height="200" fill="url(#cardGrad)" rx="15"/>
+  <rect x="10" y="10" width="330" height="180" fill="none" stroke="#F4D03F" stroke-width="2" rx="10"/>
+
+  <!-- Decorative stars -->
+  <polygon points="30,30 35,40 45,40 37,47 40,57 30,50 20,57 23,47 15,40 25,40" fill="#F4D03F" opacity="0.8"/>
+  <polygon points="320,30 325,40 335,40 327,47 330,57 320,50 310,57 313,47 305,40 315,40" fill="#F4D03F" opacity="0.8"/>
+
+  <text x="175" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="22"
+        fill="white" font-weight="bold" font-style="italic">
+    I trust myself
+  </text>
+
+</svg>

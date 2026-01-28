@@ -1,0 +1,42 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .symbol { fill: #7B3FF2; }
+      .symbol-outline { fill: none; stroke: #7B3FF2; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Sacred geometry patterns -->
+
+  <!-- Flower of Life (simplified) -->
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="30" class="symbol-outline"/>
+    <circle cx="26" cy="0" r="30" class="symbol-outline"/>
+    <circle cx="-26" cy="0" r="30" class="symbol-outline"/>
+    <circle cx="13" cy="22" r="30" class="symbol-outline"/>
+    <circle cx="13" cy="-22" r="30" class="symbol-outline"/>
+    <circle cx="-13" cy="22" r="30" class="symbol-outline"/>
+    <circle cx="-13" cy="-22" r="30" class="symbol-outline"/>
+  </g>
+
+  <!-- Hexagon (sacred geometry) -->
+  <g transform="translate(300, 100)">
+    <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20" class="symbol-outline"/>
+    <circle cx="0" cy="0" r="25" class="symbol-outline"/>
+  </g>
+
+  <!-- Triangle (chakra symbol) -->
+  <g transform="translate(100, 300)">
+    <polygon points="0,-35 40,35 -40,35" class="symbol-outline"/>
+    <circle cx="0" cy="10" r="15" class="symbol-outline"/>
+  </g>
+
+  <!-- Lotus (stylized) -->
+  <g transform="translate(300, 300)">
+    <ellipse cx="0" cy="0" rx="40" ry="15" class="symbol-outline"/>
+    <ellipse cx="0" cy="0" rx="30" ry="25" class="symbol-outline"/>
+    <ellipse cx="0" cy="0" rx="20" ry="35" class="symbol-outline"/>
+    <circle cx="0" cy="0" r="10" class="symbol"/>
+  </g>
+
+</svg>

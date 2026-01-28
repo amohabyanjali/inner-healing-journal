@@ -1,0 +1,366 @@
+/* Inner Child Healing Journal Styles */
+/* Purple Theme with Gold Accents */
+
+:root {
+  /* Purple Color Palette */
+  --purple-dark: #6B5B95;
+  --purple-medium: #8B7DA8;
+  --purple-light: #A294BA;
+  --purple-lighter: #B8A9D4;
+
+  /* Accent Colors */
+  --gold: #F4D03F;
+  --gold-light: #F9E79F;
+  --white: #FFFFFF;
+  --cream: #FFF8E7;
+
+  /* Grid Pattern */
+  --grid-color: rgba(255, 255, 255, 0.15);
+
+  /* Spacing */
+  --page-margin: 0.75in;
+  --content-padding: 40px;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Page Container */
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  page-break-after: always;
+  background: white;
+  overflow: hidden;
+}
+
+.page:last-child {
+  page-break-after: auto;
+}
+
+/* Purple Grid Background */
+.purple-background {
+  background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-medium) 100%);
+  position: relative;
+}
+
+.purple-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(var(--grid-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: 30px 30px;
+  opacity: 0.5;
+}
+
+/* Decorative Stars */
+.stars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  opacity: 0.8;
+}
+
+.star-1 { top: 15%; left: 10%; transform: scale(0.6); }
+.star-2 { top: 20%; right: 15%; transform: scale(0.8); }
+.star-3 { bottom: 25%; left: 20%; transform: scale(0.5); }
+.star-4 { bottom: 15%; right: 10%; transform: scale(0.9); }
+.star-5 { top: 40%; left: 85%; transform: scale(0.7); }
+.star-6 { top: 60%; left: 5%; transform: scale(0.6); }
+
+/* Decorative Curved Lines */
+.curved-line {
+  position: absolute;
+  border: 3px dashed white;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.curved-line-top {
+  top: -100px;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+  border-color: transparent white transparent transparent;
+}
+
+.curved-line-bottom {
+  bottom: -100px;
+  right: -100px;
+  width: 400px;
+  height: 400px;
+  border-color: transparent transparent white transparent;
+}
+
+/* Cover Page */
+.cover-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: var(--content-padding);
+}
+
+.cover-title {
+  font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--gold);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.cover-subtitle {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.personalization {
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+}
+
+.personalization-line {
+  display: inline-block;
+  border-bottom: 2px solid white;
+  min-width: 250px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* Content Pages */
+.content-wrapper {
+  padding: var(--content-padding);
+  min-height: calc(297mm - (2 * var(--content-padding)));
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--purple-medium);
+}
+
+.page-title {
+  font-size: 32px;
+  color: var(--purple-dark);
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  font-size: 18px;
+  color: var(--purple-medium);
+  font-style: italic;
+}
+
+/* Activity Pages */
+.activity-instruction {
+  background: var(--cream);
+  border-left: 4px solid var(--purple-medium);
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.activity-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  display: block;
+  border: 2px solid var(--purple-light);
+  border-radius: 8px;
+}
+
+.activity-purpose {
+  background: var(--purple-lighter);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Coloring Pages */
+.coloring-page {
+  text-align: center;
+}
+
+.coloring-image {
+  width: 100%;
+  max-width: 650px;
+  margin: 20px auto;
+  display: block;
+  padding: 20px;
+}
+
+/* Journal Prompts */
+.journal-prompts {
+  margin-top: 30px;
+}
+
+.prompt {
+  margin-bottom: 40px;
+  page-break-inside: avoid;
+}
+
+.prompt-question {
+  font-size: 18px;
+  color: var(--purple-dark);
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.prompt-question::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--purple-medium);
+}
+
+.prompt-lines {
+  border: 1px solid var(--purple-light);
+  border-radius: 4px;
+  padding: 15px;
+  min-height: 150px;
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 29px,
+    var(--purple-lighter) 29px,
+    var(--purple-lighter) 30px
+  );
+  background-size: 100% 30px;
+}
+
+/* Free Journal Pages */
+.free-journal-instruction {
+  text-align: center;
+  color: var(--purple-medium);
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.free-journal-space {
+  border: 2px dashed var(--purple-light);
+  border-radius: 8px;
+  min-height: 700px;
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 29px,
+    var(--purple-lighter) 29px,
+    var(--purple-lighter) 30px
+  );
+  background-size: 100% 30px;
+  padding: 20px;
+}
+
+/* Introduction & Closing Pages */
+.text-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.text-content p {
+  margin-bottom: 15px;
+}
+
+.text-content ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.text-content li {
+  padding-left: 25px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.text-content li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--purple-medium);
+}
+
+.how-to-use {
+  background: var(--cream);
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px 0;
+  border-left: 5px solid var(--purple-medium);
+}
+
+.closing-reminder {
+  background: linear-gradient(135deg, var(--purple-light) 0%, var(--purple-lighter) 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 30px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.page-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 10px;
+  color: #999;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    margin: 0;
+    box-shadow: none;
+  }
+}

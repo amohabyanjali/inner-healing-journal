@@ -1,0 +1,123 @@
+{
+  "title": "Inner Child Healing Journal",
+  "subtitle": "A Journey of Self-Discovery and Healing",
+  "sections": [
+    {
+      "type": "cover",
+      "title": "Inner Child Healing Journal",
+      "personalization": "This belongs to: {{studentName}}"
+    },
+    {
+      "type": "introduction",
+      "title": "Welcome to Your Healing Journey",
+      "content": [
+        "This journal is a safe space for you to connect with your inner child - the part of you that holds your earliest memories, emotions, and experiences.",
+        "Through journaling, art therapy, and mindful coloring, you'll explore:",
+        "• Your childhood experiences and emotions",
+        "• Patterns that may need healing",
+        "• Self-compassion and nurturing practices",
+        "• Creative expression as a healing tool",
+        "",
+        "How to use this journal:",
+        "1. Find a quiet, comfortable space",
+        "2. Allow yourself to feel without judgment",
+        "3. Use the prompts as guides, not rules",
+        "4. Color, draw, and write freely",
+        "5. Be gentle and patient with yourself"
+      ]
+    },
+    {
+      "type": "activity",
+      "title": "Hand Tracing Exercise",
+      "subtitle": "Grounding & Body Awareness",
+      "instruction": "Trace your hand on this page. On each finger, write something you're grateful for today.",
+      "image": "image1-37.png",
+      "purpose": "This simple exercise helps you ground in the present moment and connect with your physical body."
+    },
+    {
+      "type": "coloring",
+      "title": "Mindful Coloring",
+      "subtitle": "Thankful, Grateful, Blessed",
+      "instruction": "Color this page mindfully. Notice the colors you choose and how they make you feel.",
+      "image": "image2-35.png"
+    },
+    {
+      "type": "coloring",
+      "title": "Transformation Coloring",
+      "subtitle": "Butterfly of Change",
+      "instruction": "As you color this butterfly, reflect on the transformations you're experiencing in your healing journey.",
+      "image": "image3-33.png"
+    },
+    {
+      "type": "coloring",
+      "title": "Growth & Nurturing",
+      "subtitle": "Flower Garden",
+      "instruction": "Each flower represents a quality you're nurturing within yourself. Color them with care.",
+      "image": "image4-31.png"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Meeting Your Inner Child",
+      "prompts": [
+        "What did you love to do as a child?",
+        "What made you feel safe and happy?",
+        "What did you need but didn't receive?",
+        "What would your younger self want to hear from you today?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Emotional Awareness",
+      "prompts": [
+        "What emotions am I feeling today?",
+        "Where do I feel these emotions in my body?",
+        "What is my inner child trying to tell me?",
+        "How can I nurture myself today?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Self-Compassion Practice",
+      "prompts": [
+        "What would I say to comfort a hurting child?",
+        "How can I offer that same compassion to myself?",
+        "What does my inner child need to feel loved?",
+        "What small act of kindness can I give myself today?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Letting Go & Forgiveness",
+      "prompts": [
+        "What am I ready to release?",
+        "What no longer serves my growth?",
+        "Who or what do I need to forgive (including myself)?",
+        "What does healing look like for me?"
+      ]
+    },
+    {
+      "type": "free-journal",
+      "title": "Free Expression",
+      "instruction": "Use these pages to write, draw, or express yourself in any way that feels right."
+    },
+    {
+      "type": "closing",
+      "title": "Your Healing Continues",
+      "content": [
+        "Remember:",
+        "• Healing is not linear - there will be ups and downs",
+        "• Every step you take matters, no matter how small",
+        "• Your inner child deserves love, patience, and compassion",
+        "• You are worthy of healing and happiness",
+        "",
+        "Continue to:",
+        "• Journal regularly",
+        "• Practice self-compassion",
+        "• Seek support when needed",
+        "• Celebrate your progress",
+        "",
+        "You are doing beautiful, important work. Keep going. 💜"
+      ]
+    }
+  ]
+}

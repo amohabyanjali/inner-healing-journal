@@ -1,0 +1,46 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .breath-text { font-family: Arial; font-size: 24px; fill: #6B5B95; font-weight: bold; }
+      .step-text { font-family: Arial; font-size: 18px; fill: #8B7DA8; }
+      .arrow { fill: none; stroke: #6B5B95; stroke-width: 3; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#6B5B95"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#6B5B95">
+    4-7-8 Calming Breath
+  </text>
+
+  <!-- Step 1: Breathe In -->
+  <circle cx="150" cy="150" r="80" fill="#E8D5F2" stroke="#6B5B95" stroke-width="3"/>
+  <text x="150" y="140" text-anchor="middle" class="breath-text">Breathe In</text>
+  <text x="150" y="170" text-anchor="middle" class="step-text">4 counts</text>
+  <text x="150" y="270" text-anchor="middle" font-size="16" fill="#666">Through your nose</text>
+
+  <!-- Arrow 1 -->
+  <path d="M 230 150 L 320 150" class="arrow"/>
+
+  <!-- Step 2: Hold -->
+  <circle cx="400" cy="150" r="80" fill="#D5E8F2" stroke="#6B5B95" stroke-width="3"/>
+  <text x="400" y="140" text-anchor="middle" class="breath-text">Hold</text>
+  <text x="400" y="170" text-anchor="middle" class="step-text">7 counts</text>
+  <text x="400" y="270" text-anchor="middle" font-size="16" fill="#666">Pause gently</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 480 150 L 570 150" class="arrow"/>
+
+  <!-- Step 3: Breathe Out -->
+  <circle cx="650" cy="150" r="80" fill="#F2E8D5" stroke="#6B5B95" stroke-width="3"/>
+  <text x="650" y="140" text-anchor="middle" class="breath-text">Breathe Out</text>
+  <text x="650" y="170" text-anchor="middle" class="step-text">8 counts</text>
+  <text x="650" y="270" text-anchor="middle" font-size="16" fill="#666">Through your mouth</text>
+
+  <!-- Repeat instruction -->
+  <text x="400" y="350" text-anchor="middle" font-size="20" fill="#6B5B95" font-style="italic">
+    Repeat 4 times for calming effect
+  </text>
+
+</svg>

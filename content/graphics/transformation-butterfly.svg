@@ -1,0 +1,78 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .butterfly-outline { fill: none; stroke: #333333; stroke-width: 2; }
+      .title-text { font-family: 'Playfair Display', Georgia, serif; font-size: 26px; fill: #7B3FF2; font-weight: bold; }
+      .guide-text { font-family: 'Lato', Arial, sans-serif; font-size: 14px; fill: #9D6EF5; }
+    </style>
+    <linearGradient id="butterflyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E89AC7;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#7B3FF2;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title-text">
+    Butterfly of Transformation
+  </text>
+
+  <text x="400" y="65" text-anchor="middle" class="guide-text" font-style="italic">
+    Each wing holds a part of your journey
+  </text>
+
+  <!-- Butterfly body -->
+  <ellipse cx="400" cy="400" rx="20" ry="80" class="butterfly-outline"/>
+
+  <!-- Body segments -->
+  <line x1="400" y1="350" x2="400" y2="450" stroke="#333333" stroke-width="3"/>
+  <circle cx="400" cy="330" r="15" class="butterfly-outline"/>
+
+  <!-- Antennae -->
+  <path d="M 400 330 Q 380 300 370 280" class="butterfly-outline" stroke-width="2"/>
+  <path d="M 400 330 Q 420 300 430 280" class="butterfly-outline" stroke-width="2"/>
+  <circle cx="370" cy="280" r="5" fill="#D4AF37"/>
+  <circle cx="430" cy="280" r="5" fill="#D4AF37"/>
+
+  <!-- Left upper wing -->
+  <path d="M 380 350 Q 250 250 200 300 Q 150 350 200 420 Q 250 450 350 400 Z"
+        class="butterfly-outline" fill="url(#butterflyGrad)"/>
+
+  <!-- Right upper wing -->
+  <path d="M 420 350 Q 550 250 600 300 Q 650 350 600 420 Q 550 450 450 400 Z"
+        class="butterfly-outline" fill="url(#butterflyGrad)"/>
+
+  <!-- Left lower wing -->
+  <path d="M 380 450 Q 280 480 250 550 Q 240 600 280 620 Q 330 620 370 540 Z"
+        class="butterfly-outline" fill="url(#butterflyGrad)"/>
+
+  <!-- Right lower wing -->
+  <path d="M 420 450 Q 520 480 550 550 Q 560 600 520 620 Q 470 620 430 540 Z"
+        class="butterfly-outline" fill="url(#butterflyGrad)"/>
+
+  <!-- Decorative wing patterns (circles to color) -->
+  <circle cx="280" cy="350" r="30" class="butterfly-outline"/>
+  <circle cx="520" cy="350" r="30" class="butterfly-outline"/>
+  <circle cx="300" cy="420" r="20" class="butterfly-outline"/>
+  <circle cx="500" cy="420" r="20" class="butterfly-outline"/>
+
+  <circle cx="240" cy="320" r="15" class="butterfly-outline"/>
+  <circle cx="560" cy="320" r="15" class="butterfly-outline"/>
+
+  <circle cx="300" cy="550" r="25" class="butterfly-outline"/>
+  <circle cx="500" cy="550" r="25" class="butterfly-outline"/>
+
+  <!-- Sacred symbols in wings -->
+  <text x="280" y="360" text-anchor="middle" font-size="20" fill="#7B3FF2" opacity="0.3">✦</text>
+  <text x="520" y="360" text-anchor="middle" font-size="20" fill="#7B3FF2" opacity="0.3">✦</text>
+
+  <!-- Bottom text -->
+  <text x="400" y="700" text-anchor="middle" font-size="16" fill="#4ECDC4" font-style="italic">
+    Color each section with intention and care
+  </text>
+
+  <text x="400" y="730" text-anchor="middle" class="guide-text">
+    What are you transforming within yourself?
+  </text>
+
+</svg>

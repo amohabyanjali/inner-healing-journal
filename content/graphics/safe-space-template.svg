@@ -1,0 +1,31 @@
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .outline { fill: none; stroke: #6B5B95; stroke-width: 2; stroke-dasharray: 5,5; }
+      .label { font-family: Arial; font-size: 14px; fill: #8B7DA8; font-style: italic; }
+    </style>
+  </defs>
+
+  <text x="350" y="30" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#6B5B95">
+    Design Your Safe Space
+  </text>
+
+  <text x="350" y="55" text-anchor="middle" class="label">
+    Draw, color, or describe your ideal sanctuary
+  </text>
+
+  <!-- Large drawing area -->
+  <rect x="50" y="80" width="600" height="350" fill="#FFF8F0" stroke="#6B5B95" stroke-width="3" rx="10"/>
+
+  <!-- Corner decorations -->
+  <circle cx="70" cy="100" r="8" fill="#F4D03F"/>
+  <circle cx="630" cy="100" r="8" fill="#F4D03F"/>
+  <circle cx="70" cy="410" r="8" fill="#F4D03F"/>
+  <circle cx="630" cy="410" r="8" fill="#F4D03F"/>
+
+  <!-- Prompt -->
+  <text x="350" y="470" text-anchor="middle" font-size="16" fill="#6B5B95">
+    What makes this space safe and comforting for you?
+  </text>
+
+</svg>

@@ -1,0 +1,1157 @@
+{
+  "journal": {
+    "title": "Inner Child Healing Journal",
+    "subtitle": "A 30-Day Journey to Self-Compassion",
+    "brand": "Amoha By Anjali",
+    "tagline": "Not just Fortune telling but Soul awakening",
+    "contact": {
+      "email": "amohabyanjali@gmail.com",
+      "website": "amohabyanjali.com"
+    },
+    "duration": "30 Days",
+    "structure": "4 Weeks"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "content": {
+        "title": "Inner Child Healing Journal",
+        "subtitle": "A 30-Day Journey to Self-Compassion",
+        "brand": "Amoha By Anjali",
+        "tagline": "Not just Fortune telling but Soul awakening",
+        "showLogo": true,
+        "showPersonalization": false
+      }
+    },
+    {
+      "id": "intro",
+      "type": "intro",
+      "title": "This Journal Belongs To",
+      "content": {
+        "quote": "You are braver than you believe, stronger than you seem, and loved more than you know.",
+        "fields": [
+          {
+            "label": "This journal belongs to",
+            "type": "line"
+          },
+          {
+            "label": "Start Date",
+            "type": "line"
+          },
+          {
+            "label": "Completion Date",
+            "type": "line"
+          }
+        ],
+        "copyright": "Copyright © 2025\nAll rights reserved.\n\nThis journal is for personal use only."
+      }
+    },
+    {
+      "id": "welcome",
+      "type": "text",
+      "title": "Welcome, Dear One",
+      "content": {
+        "sections": [
+          {
+            "text": "Welcome to your Inner Child Healing Journal. By opening this page, you've taken a courageous step toward healing."
+          },
+          {
+            "text": "Within you lives a child who still carries joy and wounds. This journal is a safe space to meet, listen to, and nurture that precious part of you."
+          },
+          {
+            "text": "Over the next 30 evenings, you'll explore patterns, release emotions, and learn to respond to yourself with the compassion you always deserved."
+          },
+          {
+            "text": "This journey is not about perfection. Some evenings will feel light, others may bring tears. All of it is welcome. Simply show up with honesty and gentleness."
+          },
+          {
+            "text": "Your inner child has been waiting for you."
+          },
+          {
+            "text": "Let's begin."
+          }
+        ],
+        "signature": "With warmth and belief in you"
+      }
+    },
+    {
+      "id": "how-to-use",
+      "type": "text",
+      "title": "How to Use This Journal",
+      "content": {
+        "sections": [
+          {
+            "heading": "Your Evening Practice (15-20 minutes)",
+            "text": "Complete each evening before bed:",
+            "list": [
+              "Body scan check-in",
+              "Reflective journaling prompt",
+              "Inner child dialogue",
+              "Gratitude and release"
+            ]
+          },
+          {
+            "heading": "Gentle Guidelines",
+            "list": [
+              "Date pages as you go—no pressure",
+              "Skip days if needed",
+              "Pace yourself with intense prompts",
+              "Find a quiet, comfortable spot",
+              "Keep tissues and water nearby",
+              "If overwhelmed, pause and use resources on page 2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "weekly-rhythm",
+      "type": "text",
+      "title": "Your Weekly Rhythm",
+      "content": {
+        "rhythm": [
+          { "day": "SUNDAY", "practice": "Week review" },
+          { "day": "MONDAY", "practice": "Goal alignment" },
+          { "day": "TUESDAY", "practice": "EFT tapping" },
+          { "day": "WEDNESDAY", "practice": "Art therapy" },
+          { "day": "THURSDAY", "practice": "Somatic practice" },
+          { "day": "FRIDAY", "practice": "Letter writing" },
+          { "day": "SATURDAY", "practice": "Gratitude" }
+        ]
+      }
+    },
+    {
+      "id": "meet-inner-child",
+      "type": "activity",
+      "title": "Meet Your Inner Child",
+      "content": {
+        "sections": [
+          {
+            "heading": "Guided Visualization",
+            "text": "Find a comfortable position. Close your eyes. Take three deep breaths.\n\nImagine a peaceful place—you feel safe here. In the distance, you notice a child approaching. This is you at a younger age.\n\nNotice what they're wearing, their expression, their energy. They've been waiting to meet you.\n\nYou smile gently and say, \"I'm here now. I see you.\"\n\nWhat does your inner child want to tell you? Listen in silence. When ready, open your eyes."
+          },
+          {
+            "heading": "First Meeting",
+            "prompts": [
+              { "label": "The age I saw", "type": "short" },
+              { "label": "Their expression", "type": "line" },
+              { "label": "What they wanted to tell me", "type": "multiline", "lines": 4 },
+              { "label": "What I want them to know", "type": "multiline", "lines": 3 }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "commitment",
+      "type": "activity",
+      "title": "Your Commitment",
+      "content": {
+        "prompts": [
+          { "label": "I am beginning this journey because", "type": "multiline", "lines": 3 },
+          { "label": "What I hope to heal", "type": "multiline", "lines": 2 }
+        ],
+        "commitment": {
+          "text": "I commit to showing up for my inner child with patience, honesty, and compassion.",
+          "fields": [
+            { "label": "Signature", "type": "line" },
+            { "label": "Date", "type": "line" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "day-1",
+      "type": "daily",
+      "day": 1,
+      "week": 1,
+      "weekTheme": "Meeting Your Inner Child",
+      "date": "",
+      "title": "Setting Your Healing Goals",
+      "content": {
+        "prompts": [
+          { "question": "What patterns from childhood am I ready to break?", "lines": 2 },
+          { "question": "What new beliefs am I building?", "lines": 2 },
+          { "question": "One goal my inner child supports", "lines": 1 },
+          { "question": "How my healed self approaches this goal", "lines": 2 }
+        ],
+        "commitment": {
+          "label": "This week I will",
+          "lines": 2
+        },
+        "affirmations": [
+          "I am ready to heal",
+          "I welcome transformation"
+        ]
+      }
+    },
+    {
+      "id": "day-2",
+      "type": "daily",
+      "day": 2,
+      "week": 1,
+      "date": "",
+      "title": "EFT Tapping for Safety",
+      "content": {
+        "practice": {
+          "type": "eft",
+          "setup": {
+            "point": "Karate Chop",
+            "repetitions": 3,
+            "phrase": "Even though I carry fear from childhood, I deeply accept myself"
+          },
+          "tapping": [
+            { "point": "Eyebrow", "phrase": "This old fear..." },
+            { "point": "Side Eye", "phrase": "I was so small..." },
+            { "point": "Under Eye", "phrase": "I didn't feel safe..." },
+            { "point": "Under Nose", "phrase": "But I'm safe now..." },
+            { "point": "Chin", "phrase": "I choose peace..." },
+            { "point": "Collarbone", "phrase": "I am protected..." },
+            { "point": "Under Arm", "phrase": "I release this fear..." },
+            { "point": "Top Head", "phrase": "I am safe as I sleep..." }
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "I feel", "type": "line" },
+            { "label": "My body", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I am safe as I rest and heal"
+        ]
+      }
+    },
+    {
+      "id": "day-3",
+      "type": "daily",
+      "day": 3,
+      "week": 1,
+      "date": "",
+      "title": "Free Doodling",
+      "content": {
+        "artTherapy": {
+          "type": "doodling",
+          "title": "Free Expression Canvas",
+          "instruction": "No rules. No judgment. Just let your hand move.",
+          "duration": "10-15 minutes"
+        },
+        "prompts": [
+          { "label": "What emotion wants to come out tonight?", "type": "line" }
+        ],
+        "reflection": {
+          "heading": "After Doodling",
+          "prompts": [
+            { "label": "What came out on the page", "type": "line" },
+            { "label": "While doodling, I felt", "type": "short" },
+            { "label": "My inner child", "type": "line" },
+            { "label": "Colors/shapes I used", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I express myself freely",
+          "My creativity heals me"
+        ]
+      }
+    },
+    {
+      "id": "day-4",
+      "type": "daily",
+      "day": 4,
+      "week": 1,
+      "date": "",
+      "title": "Your Inner Child's Body",
+      "content": {
+        "practice": {
+          "type": "somatic",
+          "instruction": "Place hand on heart. \"Little one, where do you hold tension today?\""
+        },
+        "bodyScan": [
+          { "area": "Head/Neck", "type": "line" },
+          { "area": "Chest", "type": "line" },
+          { "area": "Stomach", "type": "line" }
+        ],
+        "prompts": [
+          { "question": "What is this tension telling me?", "lines": 1 },
+          { "question": "What does my inner child need?", "lines": 1 }
+        ],
+        "soothing": {
+          "instruction": "Gently rub arms, rock, or hum.",
+          "reflection": { "label": "After soothing, I feel", "type": "line" }
+        },
+        "affirmations": [
+          "My body is safe for my inner child"
+        ]
+      }
+    },
+    {
+      "id": "day-5",
+      "type": "daily",
+      "day": 5,
+      "week": 1,
+      "date": "",
+      "title": "Goodnight to Your Inner Child",
+      "content": {
+        "letterWriting": {
+          "type": "to_inner_child",
+          "salutation": "Dear Little One,",
+          "prompt": "As I prepare for sleep, I want you to know...",
+          "lines": 9,
+          "closing": "You are safe. You are loved. You can rest now.\n\nSleep well,"
+        },
+        "affirmations": [
+          "My inner child rests peacefully with me"
+        ]
+      }
+    },
+    {
+      "id": "day-6",
+      "type": "daily",
+      "day": 6,
+      "week": 1,
+      "date": "",
+      "title": "Celebrating This Week",
+      "content": {
+        "celebration": {
+          "sections": [
+            {
+              "heading": "3 Ways I Showed Up",
+              "items": 3
+            },
+            {
+              "heading": "Self-Compassion",
+              "prompts": [
+                { "label": "I forgive myself for", "type": "line" },
+                { "label": "I honor myself for", "type": "line" }
+              ]
+            },
+            {
+              "heading": "Small Victory",
+              "type": "line"
+            }
+          ]
+        },
+        "affirmations": [
+          "I celebrate my progress"
+        ]
+      }
+    },
+    {
+      "id": "day-7",
+      "type": "weekly_review",
+      "day": 7,
+      "week": 1,
+      "date": "",
+      "title": "Week 1 Complete!",
+      "content": {
+        "sections": [
+          {
+            "heading": "Patterns I Noticed",
+            "prompts": [
+              { "label": "Emotions", "type": "line" },
+              { "label": "Triggers", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Parts That Showed Up (IFS)",
+            "prompts": [
+              { "label": "Protector", "type": "line" },
+              { "label": "Critic", "type": "line" },
+              { "label": "Wounded Child", "type": "line" },
+              { "label": "Wise Self", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Integration",
+            "prompt": { "question": "This week, my inner child taught me...", "lines": 3 }
+          },
+          {
+            "heading": "Week 2 Intention",
+            "type": "line"
+          }
+        ],
+        "affirmations": [
+          "I honor my healing journey"
+        ]
+      }
+    },
+    {
+      "id": "day-8",
+      "type": "daily",
+      "day": 8,
+      "week": 2,
+      "weekTheme": "Recognizing Patterns",
+      "date": "",
+      "title": "Pattern Breaking & Goal Nurturing",
+      "content": {
+        "sections": [
+          {
+            "heading": "Pattern I'm Breaking",
+            "prompts": [
+              { "label": "Old pattern", "type": "line" },
+              { "label": "New response", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Goal I'm Nurturing",
+            "prompts": [
+              { "label": "What I'm working toward", "type": "line" },
+              { "question": "How my healed self approaches it", "lines": 2 }
+            ]
+          },
+          {
+            "heading": "Inner Child Check-In",
+            "prompt": { "question": "How you feel about this change", "lines": 1 }
+          }
+        ],
+        "affirmations": [
+          "I create new patterns with love"
+        ]
+      }
+    },
+    {
+      "id": "day-9",
+      "type": "daily",
+      "day": 9,
+      "week": 2,
+      "date": "",
+      "title": "EFT for Releasing Shame",
+      "content": {
+        "practice": {
+          "type": "eft",
+          "setup": {
+            "point": "Karate Chop",
+            "repetitions": 3,
+            "phrase": "Even though I carry shame from childhood, I deeply accept myself"
+          },
+          "tapping": [
+            { "point": "Eyebrow", "phrase": "This shame..." },
+            { "point": "Side Eye", "phrase": "I believed I was wrong..." },
+            { "point": "Under Eye", "phrase": "It wasn't my fault..." },
+            { "point": "Under Nose", "phrase": "I release this now..." },
+            { "point": "Chin", "phrase": "I choose self-love..." },
+            { "point": "Collarbone", "phrase": "I am worthy..." },
+            { "point": "Under Arm", "phrase": "My inner child is innocent..." },
+            { "point": "Top Head", "phrase": "I am free..." }
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "I feel", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I release shame with compassion"
+        ]
+      }
+    },
+    {
+      "id": "day-10",
+      "type": "daily",
+      "day": 10,
+      "week": 2,
+      "date": "",
+      "title": "Butterfly of Transformation",
+      "content": {
+        "artTherapy": {
+          "type": "coloring",
+          "title": "Transformation Butterfly",
+          "instruction": "The butterfly represents transformation. Each wing holds a part of your journey. Choose colors intuitively.",
+          "duration": "10-15 minutes"
+        },
+        "prompts": [
+          { "question": "What am I transforming within myself?", "lines": 1 },
+          { "label": "Colors that feel healing", "type": "line" }
+        ],
+        "reflection": {
+          "heading": "After Creating",
+          "prompts": [
+            { "label": "While coloring, I felt", "type": "line" },
+            { "label": "My inner child is transforming by", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I am becoming who I'm meant to be"
+        ]
+      }
+    },
+    {
+      "id": "day-11",
+      "type": "daily",
+      "day": 11,
+      "week": 2,
+      "date": "",
+      "title": "Butterfly Hug",
+      "content": {
+        "practice": {
+          "type": "somatic",
+          "name": "Butterfly Hug",
+          "instruction": "This calms your nervous system and soothes your inner child.",
+          "steps": [
+            "Cross arms over chest",
+            "Hands on opposite shoulders",
+            "Tap left-right slowly (like butterfly wings)",
+            "Continue for 2-3 minutes while breathing",
+            "Say: \"I am safe. I am held. I am healing.\""
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "My inner child feels", "type": "line" },
+            { "label": "My body feels", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I hold my inner child with tenderness"
+        ]
+      }
+    },
+    {
+      "id": "day-12",
+      "type": "daily",
+      "day": 12,
+      "week": 2,
+      "date": "",
+      "title": "From Your Inner Child to You",
+      "content": {
+        "letterWriting": {
+          "type": "from_inner_child",
+          "instruction": "Write with your opposite hand if possible.",
+          "salutation": "Dear Grown-Up Me,",
+          "prompt": "What I need you to understand is...",
+          "lines": 7,
+          "closing": "I love you,\nLittle _____________________"
+        },
+        "affirmations": [
+          "I listen to my inner child's voice"
+        ]
+      }
+    },
+    {
+      "id": "day-13",
+      "type": "daily",
+      "day": 13,
+      "week": 2,
+      "date": "",
+      "title": "Celebrating This Week",
+      "content": {
+        "celebration": {
+          "sections": [
+            {
+              "heading": "3 Ways I Showed Up",
+              "items": 3
+            },
+            {
+              "heading": "Self-Compassion",
+              "prompts": [
+                { "label": "I forgive myself for", "type": "line" },
+                { "label": "I honor myself for", "type": "line" }
+              ]
+            },
+            {
+              "heading": "Small Victory",
+              "type": "line"
+            }
+          ]
+        },
+        "affirmations": [
+          "My inner child is proud of me"
+        ]
+      }
+    },
+    {
+      "id": "day-14",
+      "type": "weekly_review",
+      "day": 14,
+      "week": 2,
+      "date": "",
+      "title": "Week 2 Complete!",
+      "content": {
+        "sections": [
+          {
+            "heading": "Patterns Noticed",
+            "lines": 2
+          },
+          {
+            "heading": "Inner Child Taught Me",
+            "lines": 2
+          },
+          {
+            "heading": "Week 3 Intention",
+            "type": "line"
+          }
+        ],
+        "affirmations": [
+          "I embrace deeper healing"
+        ]
+      }
+    },
+    {
+      "id": "day-15",
+      "type": "daily",
+      "day": 15,
+      "week": 3,
+      "weekTheme": "Expression & Release",
+      "date": "",
+      "title": "Pattern Breaking & Goal Nurturing",
+      "content": {
+        "sections": [
+          {
+            "heading": "Pattern I'm Breaking",
+            "prompts": [
+              { "label": "Old pattern", "type": "line" },
+              { "label": "New response", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Goal I'm Nurturing",
+            "prompts": [
+              { "label": "What I'm working toward", "type": "line" },
+              { "question": "How my healed self approaches it", "lines": 2 }
+            ]
+          },
+          {
+            "heading": "Inner Child Check-In",
+            "prompt": { "question": "How you feel about this", "lines": 1 }
+          }
+        ],
+        "affirmations": [
+          "I express myself authentically"
+        ]
+      }
+    },
+    {
+      "id": "day-16",
+      "type": "daily",
+      "day": 16,
+      "week": 3,
+      "date": "",
+      "title": "EFT for Worthiness",
+      "content": {
+        "practice": {
+          "type": "eft",
+          "setup": {
+            "point": "Karate Chop",
+            "repetitions": 3,
+            "phrase": "Even though I struggle to feel worthy, I deeply accept myself"
+          },
+          "tapping": [
+            { "point": "Eyebrow", "phrase": "I wasn't enough..." },
+            { "point": "Side Eye", "phrase": "I tried so hard..." },
+            { "point": "Under Eye", "phrase": "I deserve love..." },
+            { "point": "Under Nose", "phrase": "I am worthy now..." },
+            { "point": "Chin", "phrase": "I choose to believe..." },
+            { "point": "Collarbone", "phrase": "I am enough..." },
+            { "point": "Under Arm", "phrase": "My inner child is precious..." },
+            { "point": "Top Head", "phrase": "I embrace my worth..." }
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "I feel", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I am worthy of love and healing"
+        ]
+      }
+    },
+    {
+      "id": "day-17",
+      "type": "daily",
+      "day": 17,
+      "week": 3,
+      "date": "",
+      "title": "Affirmation Coloring",
+      "content": {
+        "artTherapy": {
+          "type": "coloring",
+          "title": "Thankful, Grateful, Blessed",
+          "instruction": "Say each word as you color it. Choose colors that feel uplifting.",
+          "duration": "10-15 minutes",
+          "beforeInstruction": "Speak these words aloud: \"I am thankful, grateful, and blessed\""
+        },
+        "reflection": {
+          "heading": "After Creating",
+          "prompts": [
+            { "label": "While coloring, I felt", "type": "line" },
+            { "label": "My inner child feels", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I am grateful for my healing"
+        ]
+      }
+    },
+    {
+      "id": "day-18",
+      "type": "daily",
+      "day": 18,
+      "week": 3,
+      "date": "",
+      "title": "Heart Coherence Breathing",
+      "content": {
+        "practice": {
+          "type": "somatic",
+          "name": "Heart Coherence Breathing",
+          "instruction": "Breathing with your heart calms your inner child.",
+          "steps": [
+            "Place hand on heart",
+            "Breathe in for 5 counts, out for 5 counts",
+            "Imagine breathing through your heart",
+            "Think of a moment you felt loved/safe",
+            "Continue for 5 minutes"
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "My heart wants me to know", "type": "line" },
+            { "label": "My inner child feels", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "My heart is a safe home"
+        ]
+      }
+    },
+    {
+      "id": "day-19",
+      "type": "daily",
+      "day": 19,
+      "week": 3,
+      "date": "",
+      "title": "To Your Younger Self at a Difficult Age",
+      "content": {
+        "letterWriting": {
+          "type": "to_younger_self",
+          "instruction": "Choose an age when you struggled most.",
+          "salutation": "Dear ________ at age ____,",
+          "prompt": "I wish I could have told you then...",
+          "lines": 7,
+          "closing": "You made it. I'm so proud of you.\n\nLove,"
+        },
+        "affirmations": [
+          "I hold my younger self with love"
+        ]
+      }
+    },
+    {
+      "id": "day-20",
+      "type": "daily",
+      "day": 20,
+      "week": 3,
+      "date": "",
+      "title": "Celebrating This Week",
+      "content": {
+        "celebration": {
+          "sections": [
+            {
+              "heading": "3 Ways I Showed Up",
+              "items": 3
+            },
+            {
+              "heading": "Self-Compassion",
+              "prompts": [
+                { "label": "I forgive myself for", "type": "line" },
+                { "label": "I honor myself for", "type": "line" }
+              ]
+            },
+            {
+              "heading": "Small Victory",
+              "type": "line"
+            }
+          ]
+        },
+        "affirmations": [
+          "My inner child celebrates with me"
+        ]
+      }
+    },
+    {
+      "id": "day-21",
+      "type": "weekly_review",
+      "day": 21,
+      "week": 3,
+      "date": "",
+      "title": "Week 3 Complete!",
+      "content": {
+        "sections": [
+          {
+            "heading": "Patterns Noticed",
+            "lines": 2
+          },
+          {
+            "heading": "Inner Child Taught Me",
+            "lines": 2
+          },
+          {
+            "heading": "Week 4 Intention",
+            "type": "line"
+          }
+        ],
+        "affirmations": [
+          "I integrate my healing"
+        ]
+      }
+    },
+    {
+      "id": "day-22",
+      "type": "daily",
+      "day": 22,
+      "week": 4,
+      "weekTheme": "Reparenting & Integration",
+      "date": "",
+      "title": "Pattern Breaking & Goal Nurturing",
+      "content": {
+        "sections": [
+          {
+            "heading": "Pattern I'm Breaking",
+            "prompts": [
+              { "label": "Old pattern", "type": "line" },
+              { "label": "New response", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Goal I'm Nurturing",
+            "prompts": [
+              { "label": "What I'm working toward", "type": "line" },
+              { "question": "How my healed self approaches it", "lines": 2 }
+            ]
+          },
+          {
+            "heading": "Inner Child Check-In",
+            "prompt": { "question": "How you feel about this", "lines": 1 }
+          }
+        ],
+        "affirmations": [
+          "I parent myself with love"
+        ]
+      }
+    },
+    {
+      "id": "day-23",
+      "type": "daily",
+      "day": 23,
+      "week": 4,
+      "date": "",
+      "title": "EFT for Integration",
+      "content": {
+        "practice": {
+          "type": "eft",
+          "setup": {
+            "point": "Karate Chop",
+            "repetitions": 3,
+            "phrase": "Even though healing is ongoing, I deeply accept and love myself"
+          },
+          "tapping": [
+            { "point": "Eyebrow", "phrase": "I've come so far..." },
+            { "point": "Side Eye", "phrase": "I honor my journey..." },
+            { "point": "Under Eye", "phrase": "I integrate all of me..." },
+            { "point": "Under Nose", "phrase": "The wounded and healed..." },
+            { "point": "Chin", "phrase": "I am whole..." },
+            { "point": "Collarbone", "phrase": "My inner child trusts me..." },
+            { "point": "Under Arm", "phrase": "We heal together..." },
+            { "point": "Top Head", "phrase": "I am complete as I am..." }
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "I feel", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I integrate all parts of myself"
+        ]
+      }
+    },
+    {
+      "id": "day-24",
+      "type": "daily",
+      "day": 24,
+      "week": 4,
+      "date": "",
+      "title": "Hand Mapping",
+      "content": {
+        "artTherapy": {
+          "type": "coloring",
+          "title": "Healing Hand - Words & Colors",
+          "instruction": "Write healing words inside. Fill with your favorite colors. Each finger can hold different emotions/words.",
+          "duration": "10-15 minutes",
+          "beforeInstruction": "Trace your hand on the page or use the template."
+        },
+        "prompts": [
+          { "label": "My favorite healing words", "type": "line" },
+          { "label": "My favorite colors", "type": "line" }
+        ],
+        "reflection": {
+          "heading": "After Creating",
+          "prompts": [
+            { "label": "My hand holds", "type": "line" },
+            { "label": "My inner child feels", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "I hold my healing in my hands"
+        ]
+      }
+    },
+    {
+      "id": "day-25",
+      "type": "daily",
+      "day": 25,
+      "week": 4,
+      "date": "",
+      "title": "Vagal Toning (Humming)",
+      "content": {
+        "practice": {
+          "type": "somatic",
+          "name": "Vagal Toning (Humming)",
+          "instruction": "Humming vibrations soothe your nervous system and inner child.",
+          "steps": [
+            "Sit comfortably, hand on chest",
+            "Take deep breath, hum on exhale",
+            "Feel vibration in chest/throat",
+            "Repeat 10 times",
+            "Notice the calming effect"
+          ]
+        },
+        "reflection": {
+          "prompts": [
+            { "label": "My body feels", "type": "line" },
+            { "label": "My inner child feels", "type": "line" }
+          ]
+        },
+        "affirmations": [
+          "My voice calms and heals me"
+        ]
+      }
+    },
+    {
+      "id": "day-26",
+      "type": "daily",
+      "day": 26,
+      "week": 4,
+      "date": "",
+      "title": "From Your Future Healed Self",
+      "content": {
+        "letterWriting": {
+          "type": "from_future_self",
+          "instruction": "Write from a place of wholeness.",
+          "salutation": "Dear Present Me,",
+          "prompt": "I'm writing from a place of healing to tell you...",
+          "lines": 7,
+          "closing": "You're doing beautifully,\nFuture You"
+        },
+        "affirmations": [
+          "My healed self is already within me"
+        ]
+      }
+    },
+    {
+      "id": "day-27",
+      "type": "daily",
+      "day": 27,
+      "week": 4,
+      "date": "",
+      "title": "Celebrating This Week",
+      "content": {
+        "celebration": {
+          "sections": [
+            {
+              "heading": "3 Ways I Showed Up",
+              "items": 3
+            },
+            {
+              "heading": "Self-Compassion",
+              "prompts": [
+                { "label": "I forgive myself for", "type": "line" },
+                { "label": "I honor myself for", "type": "line" }
+              ]
+            },
+            {
+              "heading": "Small Victory",
+              "type": "line"
+            }
+          ]
+        },
+        "affirmations": [
+          "I honor my entire journey"
+        ]
+      }
+    },
+    {
+      "id": "day-28",
+      "type": "weekly_review",
+      "day": 28,
+      "week": 4,
+      "date": "",
+      "title": "Week 4 Complete!",
+      "content": {
+        "sections": [
+          {
+            "heading": "Patterns Noticed",
+            "lines": 2
+          },
+          {
+            "heading": "Inner Child Taught Me",
+            "lines": 2
+          },
+          {
+            "heading": "Final Week Intention",
+            "type": "line"
+          }
+        ],
+        "affirmations": [
+          "I am ready to complete this journey"
+        ]
+      }
+    },
+    {
+      "id": "day-29",
+      "type": "daily",
+      "day": 29,
+      "week": 5,
+      "date": "",
+      "title": "Reflecting on Your Journey",
+      "content": {
+        "sections": [
+          {
+            "heading": "When I Started",
+            "prompts": [
+              { "label": "I felt", "type": "line" },
+              { "label": "I believed", "type": "line" }
+            ]
+          },
+          {
+            "heading": "Now I Understand",
+            "lines": 3
+          },
+          {
+            "heading": "My Inner Child and I",
+            "lines": 2
+          },
+          {
+            "heading": "Patterns I've Identified",
+            "type": "line"
+          },
+          {
+            "heading": "Patterns I'm Releasing",
+            "type": "line"
+          }
+        ],
+        "affirmations": [
+          "I honor how far I've come"
+        ]
+      }
+    },
+    {
+      "id": "day-30",
+      "type": "completion",
+      "day": 30,
+      "week": 5,
+      "date": "",
+      "title": "Journey Complete!",
+      "content": {
+        "letterWriting": {
+          "heading": "Final Letter to Your Inner Child",
+          "salutation": "Dear Little One,",
+          "prompt": "After 30 days together, here's my commitment to you...",
+          "lines": 9,
+          "closing": "I will always be here for you.\n\nWith eternal love,"
+        },
+        "affirmations": [
+          "My inner child and I are forever connected"
+        ]
+      }
+    },
+    {
+      "id": "closing",
+      "type": "text",
+      "title": "What's Next",
+      "content": {
+        "sections": [
+          {
+            "text": "Congratulations on completing 30 days!"
+          },
+          {
+            "heading": "Continue Your Healing",
+            "list": [
+              "Revisit favorite prompts",
+              "Keep evening journaling",
+              "Practice art therapy",
+              "Use EFT when needed",
+              "Write to your inner child"
+            ]
+          },
+          {
+            "heading": "Remember",
+            "text": "Healing isn't linear. Your inner child is proud of you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "disclaimer",
+      "type": "text",
+      "title": "Disclaimer & Resources",
+      "content": {
+        "sections": [
+          {
+            "heading": "Disclaimer",
+            "text": "This journal is for personal growth only. It is not a substitute for professional therapy.\n\nIf you experience overwhelming emotions or severe distress, contact a mental health professional immediately."
+          },
+          {
+            "heading": "Crisis Support",
+            "resources": [
+              {
+                "name": "Vandrevala Foundation",
+                "description": "Free Counseling",
+                "url": "https://www.vandrevalafoundation.com/free-counseling"
+              },
+              {
+                "name": "Tele MANAS",
+                "url": "https://telemanas.mohfw.gov.in/home",
+                "phone": "14416 OR 1-800 891 4416"
+              }
+            ]
+          },
+          {
+            "heading": "Terms",
+            "text": "For personal use only. No reproduction without permission. Healing varies for each individual. Use at your own pace."
+          }
+        ]
+      }
+    }
+  ],
+  "artTherapyPages": [
+    {
+      "week": 1,
+      "day": 3,
+      "title": "Free Expression Canvas",
+      "type": "doodling",
+      "description": "Blank canvas for free-form doodling and expression"
+    },
+    {
+      "week": 2,
+      "day": 10,
+      "title": "Transformation Butterfly",
+      "type": "coloring",
+      "description": "Butterfly mandala representing transformation and growth"
+    },
+    {
+      "week": 3,
+      "day": 17,
+      "title": "Thankful, Grateful, Blessed",
+      "type": "affirmation_art",
+      "description": "Affirmation coloring page with healing words"
+    },
+    {
+      "week": 4,
+      "day": 24,
+      "title": "Healing Hand",
+      "type": "hand_mapping",
+      "description": "Hand template to fill with healing words and colors"
+    }
+  ]
+}

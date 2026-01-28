@@ -1,0 +1,21 @@
+<svg width="350" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B3FF2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D5FEF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="350" height="200" fill="url(#cardGrad)" rx="15"/>
+  <rect x="10" y="10" width="330" height="180" fill="none" stroke="#D4AF37" stroke-width="2" rx="10"/>
+
+  <!-- Decorative stars -->
+  <text x="30" y="50" font-size="24" fill="#D4AF37" opacity="0.8">✦</text>
+  <text x="310" y="50" font-size="24" fill="#D4AF37" opacity="0.8">✦</text>
+
+  <text x="175" y="110" text-anchor="middle" font-family="Georgia, serif" font-size="22"
+        fill="white" font-weight="bold" font-style="italic">
+    I am safe now
+  </text>
+
+</svg>

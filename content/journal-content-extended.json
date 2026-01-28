@@ -1,0 +1,416 @@
+{
+  "title": "Inner Child Healing Journal",
+  "subtitle": "A Comprehensive Journey of Self-Discovery, Healing & Transformation",
+  "pageCount": 45,
+  "sections": [
+    {
+      "type": "cover",
+      "title": "Inner Child Healing Journal",
+      "personalization": "This belongs to: {{studentName}}"
+    },
+    {
+      "type": "introduction",
+      "title": "Welcome to Your Healing Journey",
+      "content": [
+        "This journal is a safe, sacred space for you to connect with your inner child - the part of you that holds your earliest memories, emotions, and experiences.",
+        "",
+        "Through therapeutic journaling, art therapy, mindful coloring, and healing exercises, you'll explore:",
+        "• Your childhood experiences and core memories",
+        "• Patterns and beliefs that may need healing",
+        "• Self-compassion and reparenting practices",
+        "• Creative expression as a powerful healing tool",
+        "• Grounding techniques for emotional regulation",
+        "",
+        "How to use this journal:",
+        "1. Find a quiet, comfortable space where you feel safe",
+        "2. Allow yourself to feel all emotions without judgment",
+        "3. Use the prompts as guides, not rigid rules",
+        "4. Color, draw, and write as freely as you wish",
+        "5. Be gentle, patient, and compassionate with yourself",
+        "6. There's no right or wrong way to heal",
+        "",
+        "This is YOUR journey. Take your time. Honor your pace. Trust your process."
+      ]
+    },
+    {
+      "type": "section-divider",
+      "title": "Part I: Getting to Know Your Inner Child",
+      "subtitle": "Understanding the child within"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Meeting Your Inner Child",
+      "prompts": [
+        "Close your eyes and imagine yourself as a child. How old are you? What are you wearing?",
+        "What did you love to do as a child? What brought you pure joy?",
+        "What made you feel safe and happy in your childhood?",
+        "If you could meet your younger self today, what would you say to them?"
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "My Childhood Timeline",
+      "instruction": "Draw or write important memories from different ages. Include happy moments, challenges, and turning points.",
+      "ages": ["Ages 0-5", "Ages 6-10", "Ages 11-15", "Ages 16-20"]
+    },
+    {
+      "type": "favorites",
+      "title": "Childhood Favorites",
+      "categories": [
+        {"label": "Favorite Toy", "icon": "🧸"},
+        {"label": "Favorite Food", "icon": "🍕"},
+        {"label": "Favorite Game", "icon": "🎮"},
+        {"label": "Favorite Place", "icon": "🏡"},
+        {"label": "Favorite Person", "icon": "💜"},
+        {"label": "Favorite Book/Show", "icon": "📚"},
+        {"label": "Favorite Activity", "icon": "🎨"},
+        {"label": "Favorite Memory", "icon": "✨"}
+      ]
+    },
+    {
+      "type": "inner-child-profile",
+      "title": "My Inner Child Profile",
+      "fields": [
+        "My inner child's name:",
+        "My inner child's age:",
+        "What my inner child needs most:",
+        "What my inner child fears:",
+        "What my inner child loves:",
+        "How I can nurture my inner child:",
+        "A message from my inner child to me:"
+      ]
+    },
+    {
+      "type": "section-divider",
+      "title": "Part II: Understanding Emotions",
+      "subtitle": "Exploring feelings and sensations"
+    },
+    {
+      "type": "emotion-wheel",
+      "title": "Emotion Wheel Exercise",
+      "instruction": "Use this wheel to identify and name your emotions. Circle or color the emotions you're feeling today.",
+      "graphic": "emotion-wheel.svg"
+    },
+    {
+      "type": "body-sensations",
+      "title": "Body Sensations Map",
+      "instruction": "Where do you feel emotions in your body? Color or mark the areas using the guide below.",
+      "graphic": "body-outline.svg"
+    },
+    {
+      "type": "feelings-tracker",
+      "title": "Daily Feelings Tracker",
+      "instruction": "Track your emotions for one week. Notice patterns and triggers.",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Emotional Awareness",
+      "prompts": [
+        "What emotions am I feeling right now? Can I name them without judgment?",
+        "Where do I feel these emotions in my body? (chest, stomach, throat, etc.)",
+        "What triggered these feelings today?",
+        "What is my inner child trying to tell me through these emotions?"
+      ]
+    },
+    {
+      "type": "section-divider",
+      "title": "Part III: Art Therapy & Creative Expression",
+      "subtitle": "Healing through creativity"
+    },
+    {
+      "type": "activity",
+      "title": "Hand Tracing - Grounding Exercise",
+      "subtitle": "Connect with your body",
+      "instruction": "Trace your hand on this page. On each finger, write something you're grateful for today. This exercise helps you ground in the present moment.",
+      "image": "image1-37.png",
+      "purpose": "Grounding exercises help calm your nervous system and bring you into the present moment, creating safety for your inner child."
+    },
+    {
+      "type": "safe-space",
+      "title": "Design Your Safe Space",
+      "instruction": "Draw, color, or describe your ideal sanctuary - a place where your inner child feels completely safe and at peace.",
+      "graphic": "safe-space-template.svg",
+      "prompts": [
+        "What does this space look like?",
+        "What sounds, smells, and feelings are present?",
+        "Who or what is with you in this space?",
+        "Why does this space feel safe for your inner child?"
+      ]
+    },
+    {
+      "type": "non-dominant-hand",
+      "title": "Inner Child Portrait",
+      "instruction": "Using your NON-DOMINANT hand, draw a picture of yourself as a child. Don't worry about artistic skill - let your inner child guide you. Notice what emerges.",
+      "space": "large"
+    },
+    {
+      "type": "coloring",
+      "title": "Mindful Coloring - Gratitude",
+      "subtitle": "Thankful, Grateful, Blessed",
+      "instruction": "Color this page mindfully. As you color, think of things you're grateful for. Notice the colors you choose and how they make you feel.",
+      "image": "image2-35.png"
+    },
+    {
+      "type": "coloring",
+      "title": "Transformation Coloring",
+      "subtitle": "Butterfly of Change",
+      "instruction": "As you color this butterfly, reflect on the transformations happening in your healing journey. What old patterns are you releasing? What new qualities are emerging?",
+      "image": "image3-33.png"
+    },
+    {
+      "type": "coloring",
+      "title": "Growth & Nurturing",
+      "subtitle": "Flower Garden of Self-Love",
+      "instruction": "Each flower represents a quality you're nurturing within yourself: compassion, courage, joy, peace, etc. Color them with intention and care.",
+      "image": "image4-31.png"
+    },
+    {
+      "type": "coloring",
+      "title": "Mandala Meditation",
+      "subtitle": "Sacred Geometry for Healing",
+      "instruction": "Color this mandala from the center outward or the outside inward. Let this become a moving meditation on healing and wholeness.",
+      "graphic": "mandala-1.svg"
+    },
+    {
+      "type": "section-divider",
+      "title": "Part IV: Healing Exercises",
+      "subtitle": "Reparenting and restoration"
+    },
+    {
+      "type": "letter-writing",
+      "title": "Letter to Your Younger Self",
+      "instruction": "Write a letter to yourself at a specific age when you needed love, support, or guidance. What would you say? What comfort would you offer?",
+      "prompts": [
+        "Dear [Your Name] at age ___,",
+        "I want you to know...",
+        "I'm sorry that...",
+        "You deserved...",
+        "I promise you...",
+        "With love, [Your Name Today]"
+      ]
+    },
+    {
+      "type": "letter-writing",
+      "title": "Letter from Your Inner Child",
+      "instruction": "Now, using your non-dominant hand if possible, let your inner child write back to you. What does your inner child want you to know?",
+      "prompts": [
+        "Dear [Your Name],",
+        "I feel...",
+        "I need...",
+        "I'm afraid of...",
+        "Thank you for...",
+        "Love, Little [Your Name]"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Reparenting Yourself",
+      "prompts": [
+        "What did I need but didn't receive as a child? (safety, validation, love, freedom, etc.)",
+        "How can I give myself those things now as an adult?",
+        "What would a loving parent say to comfort a child who feels the way I do?",
+        "How can I speak to myself with the same gentleness I'd show a hurt child?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Releasing & Forgiveness",
+      "prompts": [
+        "What old beliefs or patterns am I ready to release?",
+        "What no longer serves my healing and growth?",
+        "Who do I need to forgive - others or myself?",
+        "What would it feel like to set down this burden I've been carrying?"
+      ]
+    },
+    {
+      "type": "affirmation-cards",
+      "title": "Healing Affirmations",
+      "instruction": "Cut out these affirmation cards. Place them where you'll see them daily - mirror, desk, phone. Speak them aloud to your inner child.",
+      "cards": [
+        {"text": "I am worthy of love", "graphic": "affirmation-1.svg"},
+        {"text": "I am safe now", "graphic": "affirmation-2.svg"},
+        {"text": "I deserve happiness", "graphic": "affirmation-3.svg"},
+        {"text": "I trust myself", "graphic": "affirmation-4.svg"},
+        {"text": "I am enough", "graphic": "affirmation-5.svg"},
+        {"text": "I choose peace", "graphic": "affirmation-6.svg"},
+        {"text": "I am healing", "graphic": "affirmation-7.svg"},
+        {"text": "I am loved", "graphic": "affirmation-8.svg"}
+      ]
+    },
+    {
+      "type": "section-divider",
+      "title": "Part V: Grounding & Self-Care",
+      "subtitle": "Tools for regulation and peace"
+    },
+    {
+      "type": "grounding-exercise",
+      "title": "5-4-3-2-1 Grounding",
+      "instruction": "When feeling overwhelmed, anxious, or disconnected, use this grounding technique to return to the present moment.",
+      "graphic": "grounding-54321.svg"
+    },
+    {
+      "type": "breathing-exercise",
+      "title": "4-7-8 Calming Breath",
+      "instruction": "This breathing technique activates your parasympathetic nervous system, helping you feel calm and safe.",
+      "graphic": "breathing-478.svg",
+      "steps": [
+        "Breathe in through your nose for 4 counts",
+        "Hold your breath gently for 7 counts",
+        "Exhale through your mouth for 8 counts",
+        "Repeat 4 times or until you feel calmer"
+      ]
+    },
+    {
+      "type": "self-care-menu",
+      "title": "Self-Care Menu",
+      "instruction": "Create your personalized self-care menu. When your inner child needs nurturing, choose something from each category.",
+      "categories": [
+        {
+          "name": "Physical Care",
+          "icon": "💪",
+          "examples": ["Take a warm bath", "Go for a walk", "Stretch", "Dance", "Nap"]
+        },
+        {
+          "name": "Emotional Care",
+          "icon": "💜",
+          "examples": ["Journal", "Cry if needed", "Watch comfort show", "Call a friend", "Hug yourself"]
+        },
+        {
+          "name": "Creative Care",
+          "icon": "🎨",
+          "examples": ["Color", "Draw", "Play music", "Craft", "Write poetry"]
+        },
+        {
+          "name": "Spiritual Care",
+          "icon": "✨",
+          "examples": ["Meditate", "Pray", "Nature walk", "Gratitude", "Affirmations"]
+        }
+      ]
+    },
+    {
+      "type": "daily-check-in",
+      "title": "Daily Check-In",
+      "instruction": "Use this page for daily reflection and connection with your inner child.",
+      "prompts": [
+        "Date:",
+        "How am I feeling today?",
+        "What does my inner child need today?",
+        "One thing I'm grateful for:",
+        "One act of self-care I'll do today:",
+        "Evening reflection - How did today go?"
+      ]
+    },
+    {
+      "type": "section-divider",
+      "title": "Part VI: Deeper Reflection",
+      "subtitle": "Continued healing and growth"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Recognizing Patterns",
+      "prompts": [
+        "What patterns from my childhood show up in my adult life?",
+        "How do I react when I feel hurt, scared, or rejected?",
+        "What defense mechanisms did I develop as a child that I still use?",
+        "Which of these patterns serve me? Which ones hold me back?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Needs & Boundaries",
+      "prompts": [
+        "What are my core emotional needs? (safety, validation, freedom, etc.)",
+        "How comfortable am I expressing my needs to others?",
+        "What boundaries do I need to set to protect my inner child?",
+        "Where in my life do I need to say 'no' more often?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Self-Compassion Practice",
+      "prompts": [
+        "What would I say to comfort a hurting child who feels the way I do?",
+        "Can I offer myself that same compassion and understanding?",
+        "What harsh judgments do I make about myself? Can I soften them?",
+        "How would my life change if I treated myself with unconditional kindness?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Permission & Freedom",
+      "prompts": [
+        "What did I not have permission to do, feel, or be as a child?",
+        "What would it mean to give myself that permission now?",
+        "What would my life look like if I allowed myself full expression?",
+        "What is one small way I can practice this freedom today?"
+      ]
+    },
+    {
+      "type": "free-journal",
+      "title": "Free Expression Space",
+      "instruction": "Use these pages however you wish - write, draw, doodle, vent, dream, or simply be present with yourself.",
+      "pages": 4
+    },
+    {
+      "type": "progress-reflection",
+      "title": "Healing Progress Reflection",
+      "instruction": "Looking back on this journal, reflect on your journey.",
+      "prompts": [
+        "What have I learned about my inner child?",
+        "What insights or breakthroughs have I had?",
+        "How has my relationship with myself changed?",
+        "What healing still calls to me?",
+        "What am I most proud of in this journey?",
+        "How will I continue to nurture my inner child?"
+      ]
+    },
+    {
+      "type": "closing",
+      "title": "Your Healing Continues",
+      "content": [
+        "Remember:",
+        "• Healing is not linear - there will be ups and downs, and that's okay",
+        "• Every small step you take matters, no matter how insignificant it may seem",
+        "• Your inner child deserves love, patience, and boundless compassion",
+        "• You are not broken - you are healing",
+        "• You are worthy of all the love, peace, and joy you seek",
+        "",
+        "Continue to:",
+        "• Journal regularly, even if just for a few minutes",
+        "• Practice daily self-compassion",
+        "• Use grounding techniques when overwhelmed",
+        "• Seek support when you need it - therapy, community, trusted friends",
+        "• Celebrate every bit of progress, no matter how small",
+        "• Return to this journal whenever you need guidance",
+        "",
+        "You are doing beautiful, courageous, important work.",
+        "Your inner child is so grateful for your dedication to healing.",
+        "Keep going. You deserve this healing.",
+        "",
+        "With deep love and respect for your journey,",
+        "May you find peace, wholeness, and joy. 💜"
+      ]
+    },
+    {
+      "type": "resources",
+      "title": "Additional Resources",
+      "content": [
+        "If you need additional support:",
+        "",
+        "• Consider working with a trauma-informed therapist",
+        "• Join inner child healing communities (online or in-person)",
+        "• Explore EMDR, IFS (Internal Family Systems), or somatic therapy",
+        "• Read books on inner child work and reparenting",
+        "• Practice daily meditation and mindfulness",
+        "",
+        "Crisis Resources:",
+        "• National Crisis Hotline: 988",
+        "• Crisis Text Line: Text HOME to 741741",
+        "• SAMHSA National Helpline: 1-800-662-4357",
+        "",
+        "You are never alone in this journey."
+      ]
+    }
+  ]
+}

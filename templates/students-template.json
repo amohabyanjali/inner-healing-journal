@@ -1,0 +1,16 @@
+{
+  "_comment": "Student List Template - Amoha By Anjali Inner Child Healing Journal",
+  "_instructions": [
+    "Replace the example names below with your actual student names",
+    "Keep the array format with quotes and commas",
+    "You can use either this format or the simpler array format shown at the bottom",
+    "Save and use with: node scripts/batch-generate-amoha.js --file students.json"
+  ],
+  "students": [
+    "Priya Sharma",
+    "Aarav Patel",
+    "Ananya Gupta",
+    "Rohan Mehta",
+    "Diya Singh"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "inner-child-healing-journal",
+  "version": "1.0.0",
+  "description": "Beautiful, distributable Inner Child Healing Journal generator with purple theme",
+  "main": "scripts/generate-pdf.js",
+  "scripts": {
+    "generate": "node scripts/generate-pdf.js",
+    "generate:extended": "node scripts/generate-pdf-extended.js",
+    "generate:html": "node scripts/generate-html.js",
+    "generate:graphics": "node scripts/generate-graphics.js",
+    "batch": "node scripts/batch-generate.js",
+    "test": "npm run generate -- --name 'Test Student'",
+    "test:extended": "npm run generate:extended -- --name 'Test Student'",
+    "help": "node scripts/generate-pdf.js --help",
+    "help:extended": "node scripts/generate-pdf-extended.js --help"
+  },
+  "keywords": [
+    "journal",
+    "pdf",
+    "healing",
+    "inner-child",
+    "therapy",
+    "workbook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,53 @@
+<svg width="700" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .grounding-box { fill: white; stroke: #6B5B95; stroke-width: 3; }
+      .number { font-family: Arial Black; font-size: 48px; fill: #6B5B95; font-weight: bold; }
+      .prompt { font-family: Arial; font-size: 18px; fill: #8B7DA8; }
+      .lines { stroke: #DDD; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <text x="350" y="40" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#6B5B95">
+    5-4-3-2-1 Grounding Exercise
+  </text>
+
+  <!-- 5 Things You See -->
+  <rect x="50" y="80" width="600" height="130" class="grounding-box" fill="#E8D5F2"/>
+  <text x="80" y="125" class="number">5</text>
+  <text x="150" y="125" class="prompt" font-weight="bold">Things I can SEE</text>
+  <line x1="150" y1="145" x2="620" y2="145" class="lines"/>
+  <line x1="150" y1="170" x2="620" y2="170" class="lines"/>
+  <line x1="150" y1="195" x2="620" y2="195" class="lines"/>
+
+  <!-- 4 Things You Touch -->
+  <rect x="50" y="230" width="600" height="110" class="grounding-box" fill="#D5E8F2"/>
+  <text x="80" y="270" class="number">4</text>
+  <text x="150" y="270" class="prompt" font-weight="bold">Things I can TOUCH</text>
+  <line x1="150" y1="290" x2="620" y2="290" class="lines"/>
+  <line x1="150" y1="315" x2="620" y2="315" class="lines"/>
+
+  <!-- 3 Things You Hear -->
+  <rect x="50" y="360" width="600" height="110" class="grounding-box" fill="#F2E8D5"/>
+  <text x="80" y="400" class="number">3</text>
+  <text x="150" y="400" class="prompt" font-weight="bold">Things I can HEAR</text>
+  <line x1="150" y1="420" x2="620" y2="420" class="lines"/>
+  <line x1="150" y1="445" x2="620" y2="445" class="lines"/>
+
+  <!-- 2 Things You Smell -->
+  <rect x="50" y="490" width="600" height="90" class="grounding-box" fill="#F2D5E8"/>
+  <text x="80" y="525" class="number">2</text>
+  <text x="150" y="525" class="prompt" font-weight="bold">Things I can SMELL</text>
+  <line x1="150" y1="545" x2="620" y2="545" class="lines"/>
+
+  <!-- 1 Thing You Taste -->
+  <rect x="50" y="600" width="600" height="90" class="grounding-box" fill="#D5F2E8"/>
+  <text x="80" y="635" class="number">1</text>
+  <text x="150" y="635" class="prompt" font-weight="bold">Thing I can TASTE</text>
+  <line x1="150" y1="655" x2="620" y2="655" class="lines"/>
+
+  <text x="350" y="730" text-anchor="middle" font-size="16" fill="#6B5B95" font-style="italic">
+    Use this exercise when feeling overwhelmed or disconnected
+  </text>
+
+</svg>

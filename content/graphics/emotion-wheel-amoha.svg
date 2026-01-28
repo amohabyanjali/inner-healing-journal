@@ -1,0 +1,92 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="300" cy="300" r="210" fill="#F5F5F5" filter="url(#shadow)"/>
+
+  <!-- Emotion segments -->
+  <path d="M 300 300 L 300 100 A 200 200 0 0 1 400 126.79491924311225 Z"
+        fill="#E5C558" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="336.2346663143529" y="164.77038431953045" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Happy
+  </text>
+  <path d="M 300 300 L 400 126.79491924311225 A 200 200 0 0 1 473.2050807568877 200 Z"
+        fill="#D4AF37" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="398.99494936611666" y="201.00505063388334" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Excited
+  </text>
+  <path d="M 300 300 L 473.2050807568877 200 A 200 200 0 0 1 500 300 Z"
+        fill="#E89AC7" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="435.2296156804696" y="263.7653336856471" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Loved
+  </text>
+  <path d="M 300 300 L 500 300 A 200 200 0 0 1 473.20508075688775 400 Z"
+        fill="#4ECDC4" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="435.2296156804696" y="336.2346663143529" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Peaceful
+  </text>
+  <path d="M 300 300 L 473.20508075688775 400 A 200 200 0 0 1 400.00000000000006 473.2050807568877 Z"
+        fill="#5D5FEF" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="398.99494936611666" y="398.99494936611666" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Sad
+  </text>
+  <path d="M 300 300 L 400.00000000000006 473.2050807568877 A 200 200 0 0 1 300 500 Z"
+        fill="#DC143C" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="336.234666314353" y="435.2296156804696" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Angry
+  </text>
+  <path d="M 300 300 L 300 500 A 200 200 0 0 1 200.00000000000006 473.20508075688775 Z"
+        fill="#9D6EF5" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="263.76533368564714" y="435.2296156804696" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Scared
+  </text>
+  <path d="M 300 300 L 200.00000000000006 473.20508075688775 A 200 200 0 0 1 126.7949192431123 400.00000000000006 Z"
+        fill="#7B3FF2" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="201.00505063388334" y="398.99494936611666" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Anxious
+  </text>
+  <path d="M 300 300 L 126.7949192431123 400.00000000000006 A 200 200 0 0 1 100 300 Z"
+        fill="#888888" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="164.77038431953045" y="336.2346663143529" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Lonely
+  </text>
+  <path d="M 300 300 L 100 300 A 200 200 0 0 1 126.79491924311219 200.0000000000001 Z"
+        fill="#F1BAD9" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="164.77038431953045" y="263.7653336856471" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Confused
+  </text>
+  <path d="M 300 300 L 126.79491924311219 200.0000000000001 A 200 200 0 0 1 199.99999999999991 126.7949192431123 Z"
+        fill="#888888" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="201.0050506338833" y="201.0050506338834" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Tired
+  </text>
+  <path d="M 300 300 L 199.99999999999991 126.7949192431123 A 200 200 0 0 1 299.99999999999994 100 Z"
+        fill="#7EDDD6" stroke="white" stroke-width="2" opacity="0.8"/>
+  <text x="263.76533368564697" y="164.77038431953048" text-anchor="middle" dominant-baseline="middle"
+        font-family="Lato, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">
+    Grateful
+  </text>
+
+  <!-- Center circle -->
+  <circle cx="300" cy="300" r="60" fill="white" stroke="#7B3FF2" stroke-width="3"/>
+  <text x="300" y="290" text-anchor="middle" font-family="Lato, Arial" font-size="18"
+        font-weight="bold" fill="#7B3FF2">How do</text>
+  <text x="300" y="310" text-anchor="middle" font-family="Lato, Arial" font-size="18"
+        font-weight="bold" fill="#7B3FF2">I feel?</text>
+
+</svg>
