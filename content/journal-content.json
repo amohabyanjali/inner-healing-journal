@@ -9,115 +9,525 @@
     },
     {
       "type": "introduction",
-      "title": "Welcome to Your Healing Journey",
+      "title": "This Journal Belongs To",
       "content": [
-        "This journal is a safe space for you to connect with your inner child - the part of you that holds your earliest memories, emotions, and experiences.",
-        "Through journaling, art therapy, and mindful coloring, you'll explore:",
-        "• Your childhood experiences and emotions",
-        "• Patterns that may need healing",
-        "• Self-compassion and nurturing practices",
-        "• Creative expression as a healing tool",
         "",
-        "How to use this journal:",
-        "1. Find a quiet, comfortable space",
-        "2. Allow yourself to feel without judgment",
-        "3. Use the prompts as guides, not rules",
-        "4. Color, draw, and write freely",
-        "5. Be gentle and patient with yourself"
+        "",
+        "_______________________",
+        "",
+        "",
+        "\"You are braver than you believe,",
+        "stronger than you seem,",
+        "and loved more than you know.\"",
+        "",
+        "",
+        "START DATE: _______________________",
+        "",
+        "COMPLETION DATE: ___________________",
+        "",
+        "",
+        "Copyright © 2026",
+        "All rights reserved.",
+        "",
+        "This journal is for personal use only."
       ]
     },
     {
+      "type": "introduction",
+      "title": "Welcome, Dear One",
+      "content": [
+        "Welcome to your Inner Child Healing Journal. By opening this page, you've taken a courageous step toward healing.",
+        "",
+        "Within you lives a child who still carries joy and wounds. This journal is a safe space to meet, listen to, and nurture that precious part of you.",
+        "",
+        "Over the next 30 evenings, you'll explore patterns, release emotions, and learn to respond to yourself with the compassion you always deserved.",
+        "",
+        "This journey is not about perfection. Some evenings will feel light, others may bring tears. All of it is welcome. Simply show up with honesty and gentleness.",
+        "",
+        "Your inner child has been waiting for you.",
+        "",
+        "Let's begin.",
+        "",
+        "",
+        "With warmth and belief in you"
+      ]
+    },
+    {
+      "type": "introduction",
+      "title": "How to Use This Journal",
+      "content": [
+        "YOUR EVENING PRACTICE (15-20 minutes)",
+        "",
+        "Complete each evening before bed:",
+        "• Body scan check-in",
+        "• Reflective journaling prompt",
+        "• Inner child dialogue",
+        "• Gratitude and release",
+        "",
+        "",
+        "GENTLE GUIDELINES",
+        "",
+        "• Date pages as you go—no pressure",
+        "• Skip days if needed",
+        "• Pace yourself with intense prompts",
+        "• Find a quiet, comfortable spot",
+        "• Keep tissues and water nearby",
+        "• If overwhelmed, pause and use resources on the last page"
+      ]
+    },
+    {
+      "type": "introduction",
+      "title": "Your Weekly Rhythm",
+      "content": [
+        "SUNDAY: Week review",
+        "MONDAY: Goal alignment",
+        "TUESDAY: EFT tapping",
+        "WEDNESDAY: Art therapy",
+        "THURSDAY: Somatic practice",
+        "FRIDAY: Letter writing",
+        "SATURDAY: Gratitude"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Meet Your Inner Child",
+      "subtitle": "Guided Visualization",
+      "prompts": [
+        "Find a comfortable position. Close your eyes. Take three deep breaths.\n\nImagine a peaceful place—you feel safe here. In the distance, you notice a child approaching. This is you at a younger age.\n\nNotice what they're wearing, their expression, their energy. They've been waiting to meet you.\n\nYou smile gently and say, \"I'm here now. I see you.\"\n\nWhat does your inner child want to tell you? Listen in silence. When ready, open your eyes.",
+        "The age I saw:",
+        "Their expression:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Meet Your Inner Child",
+      "subtitle": "First Meeting Reflections",
+      "prompts": [
+        "What they wanted to tell me:",
+        "What I want them to know:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Your Commitment",
+      "prompts": [
+        "I am beginning this journey because:",
+        "What I hope to heal:",
+        "MY COMMITMENT\n\nI commit to showing up for my inner child with patience, honesty, and compassion.\n\nSignature: _________________________\n\nDate: ______________________________"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 1 of 30",
+      "subtitle": "WEEK 1: Meeting Your Inner Child",
+      "prompts": [
+        "What patterns from childhood am I ready to break?",
+        "What new beliefs am I building?",
+        "One goal my inner child supports:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 1 of 30 (continued)",
+      "subtitle": "Setting Your Healing Goals",
+      "prompts": [
+        "How my healed self approaches this goal:",
+        "COMMITMENT: This week I will:"
+      ],
+      "affirmations": ["I am ready to heal", "I welcome transformation"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 2 of 30",
+      "subtitle": "EFT Tapping for Safety",
+      "prompts": [
+        "SETUP (Karate Chop - say 3x):\n\"Even though I carry fear from childhood, I deeply accept myself\"",
+        "TAP EACH POINT 5-7 TIMES:\n• Eyebrow: \"This old fear...\"\n• Side Eye: \"I was so small...\"\n• Under Eye: \"I didn't feel safe...\"\n• Under Nose: \"But I'm safe now...\"\n• Chin: \"I choose peace...\"\n• Collarbone: \"I am protected...\"\n• Under Arm: \"I release this fear...\"\n• Top Head: \"I am safe as I sleep...\"",
+        "AFTER TAPPING - I feel:",
+        "My body:"
+      ],
+      "affirmations": ["I am safe as I rest and heal"]
+    },
+    {
       "type": "activity",
-      "title": "Hand Tracing Exercise",
-      "subtitle": "Grounding & Body Awareness",
-      "instruction": "Trace your hand on this page. On each finger, write something you're grateful for today.",
-      "image": "image1-37.png",
-      "purpose": "This simple exercise helps you ground in the present moment and connect with your physical body."
+      "title": "Day 3 of 30",
+      "subtitle": "Free Doodling - Creative Release",
+      "instruction": "No rules. No judgment. Just let your hand move.\n\nBEFORE YOU BEGIN:\nTake 3 deep breaths.\nWhat emotion wants to come out tonight?\nSet a timer for 10-15 minutes and let go.",
+      "image": "hand-new.png",
+      "purpose": "AFTER DOODLING: What came out on the page? While doodling, I felt? My inner child? Colors/shapes I used?"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 4 of 30",
+      "subtitle": "Somatic Practice: Your Inner Child's Body",
+      "prompts": [
+        "Place hand on heart. \"Little one, where do you hold tension today?\"",
+        "BODY SCAN:\n• Head/Neck:\n• Chest:\n• Stomach:",
+        "What is this tension telling me?"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 4 of 30 (continued)",
+      "subtitle": "Soothing Your Inner Child",
+      "prompts": [
+        "What does my inner child need?",
+        "SOOTHING: Gently rub arms, rock, or hum.\nAfter soothing, I feel:"
+      ],
+      "affirmations": ["My body is safe for my inner child"]
+    },
+    {
+      "type": "free-journal",
+      "title": "Day 5 of 30",
+      "subtitle": "Letter Writing: Goodnight to Your Inner Child",
+      "instruction": "Dear Little One,\n\nAs I prepare for sleep, I want you to know...\n\n\n\n\n\n\n\n\n\nYou are safe. You are loved. You can rest now.\n\nSleep well,\n_____________________"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 6 of 30",
+      "subtitle": "Celebrating This Week",
+      "prompts": [
+        "3 WAYS I SHOWED UP:\n1.\n2.\n3.",
+        "SELF-COMPASSION:\nI forgive myself for:",
+        "I honor myself for:",
+        "SMALL VICTORY:"
+      ],
+      "affirmations": ["I celebrate my progress"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 7 of 30",
+      "subtitle": "WEEK 1 COMPLETE!",
+      "prompts": [
+        "PATTERNS I NOTICED:\n• Emotions:\n• Triggers:",
+        "PARTS THAT SHOWED UP (IFS):\n• Protector:\n• Critic:\n• Wounded Child:\n• Wise Self:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 7 of 30 (continued)",
+      "subtitle": "Week 1 Integration",
+      "prompts": [
+        "INTEGRATION:\n\"This week, my inner child taught me...\"",
+        "WEEK 2 INTENTION:"
+      ],
+      "affirmations": ["I honor my healing journey"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 8 of 30",
+      "subtitle": "WEEK 2: Recognizing Patterns",
+      "prompts": [
+        "PATTERN I'M BREAKING:\nOld pattern:",
+        "New response:",
+        "GOAL I'M NURTURING:\nWhat I'm working toward:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 8 of 30 (continued)",
+      "subtitle": "Inner Child Check-In",
+      "prompts": [
+        "How my healed self approaches it:",
+        "INNER CHILD CHECK-IN:\nHow you feel about this change:"
+      ],
+      "affirmations": ["I create new patterns with love"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 9 of 30",
+      "subtitle": "EFT for Releasing Shame",
+      "prompts": [
+        "SETUP (Karate Chop - say 3x):\n\"Even though I carry shame from childhood, I deeply accept myself\"",
+        "TAP EACH POINT 5-7 TIMES:\n• Eyebrow: \"This shame...\"\n• Side Eye: \"I believed I was wrong...\"\n• Under Eye: \"It wasn't my fault...\"\n• Under Nose: \"I release this now...\"\n• Chin: \"I choose self-love...\"\n• Collarbone: \"I am worthy...\"\n• Under Arm: \"My inner child is innocent...\"\n• Top Head: \"I am free...\"",
+        "AFTER TAPPING - I feel:"
+      ],
+      "affirmations": ["I release shame with compassion"]
     },
     {
       "type": "coloring",
-      "title": "Mindful Coloring",
-      "subtitle": "Thankful, Grateful, Blessed",
-      "instruction": "Color this page mindfully. Notice the colors you choose and how they make you feel.",
-      "image": "image2-35.png"
+      "title": "Day 10 of 30",
+      "subtitle": "Butterfly of Transformation",
+      "instruction": "BEFORE COLORING:\nThe butterfly represents transformation.\nWhat am I transforming within myself?\nColors that feel healing:\n\nCOLOR MINDFULLY:\n• Each wing holds a part of your journey\n• Choose colors intuitively\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child is transforming by:",
+      "image": "butterfly-new.png"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 11 of 30",
+      "subtitle": "Somatic Practice: Butterfly Hug",
+      "prompts": [
+        "This calms your nervous system and soothes your inner child.\n\nINSTRUCTIONS:\n1. Cross arms over chest\n2. Hands on opposite shoulders\n3. Tap left-right slowly (like butterfly wings)\n4. Continue for 2-3 minutes while breathing\n5. Say: \"I am safe. I am held. I am healing.\"",
+        "AFTER PRACTICE:\nMy inner child feels:",
+        "My body feels:"
+      ],
+      "affirmations": ["I hold my inner child with tenderness"]
+    },
+    {
+      "type": "free-journal",
+      "title": "Day 12 of 30",
+      "subtitle": "Letter From Your Inner Child to You",
+      "instruction": "Write with your opposite hand if possible.\n\nDear Grown-Up Me,\n\nWhat I need you to understand is...\n\n\n\n\n\n\n\n\nI love you,\nLittle _____________________"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 13 of 30",
+      "subtitle": "Celebrating This Week",
+      "prompts": [
+        "3 WAYS I SHOWED UP:\n1.\n2.\n3.",
+        "SELF-COMPASSION:\nI forgive myself for:",
+        "I honor myself for:",
+        "SMALL VICTORY:"
+      ],
+      "affirmations": ["My inner child is proud of me"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 14 of 30",
+      "subtitle": "WEEK 2 COMPLETE!",
+      "prompts": [
+        "PATTERNS NOTICED:",
+        "INNER CHILD TAUGHT ME:",
+        "WEEK 3 INTENTION:"
+      ],
+      "affirmations": ["I embrace deeper healing"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 15 of 30",
+      "subtitle": "WEEK 3: Expression & Release",
+      "prompts": [
+        "PATTERN I'M BREAKING:\nOld pattern:",
+        "New response:",
+        "GOAL I'M NURTURING:\nWhat I'm working toward:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 15 of 30 (continued)",
+      "subtitle": "Inner Child Check-In",
+      "prompts": [
+        "How my healed self approaches it:",
+        "INNER CHILD CHECK-IN:\nHow you feel about this:"
+      ],
+      "affirmations": ["I express myself authentically"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 16 of 30",
+      "subtitle": "EFT for Worthiness",
+      "prompts": [
+        "SETUP (Karate Chop - say 3x):\n\"Even though I struggle to feel worthy, I deeply accept myself\"",
+        "TAP EACH POINT 5-7 TIMES:\n• Eyebrow: \"I wasn't enough...\"\n• Side Eye: \"I tried so hard...\"\n• Under Eye: \"I deserve love...\"\n• Under Nose: \"I am worthy now...\"\n• Chin: \"I choose to believe...\"\n• Collarbone: \"I am enough...\"\n• Under Arm: \"My inner child is precious...\"\n• Top Head: \"I embrace my worth...\"",
+        "AFTER TAPPING - I feel:"
+      ],
+      "affirmations": ["I am worthy of love and healing"]
     },
     {
       "type": "coloring",
-      "title": "Transformation Coloring",
-      "subtitle": "Butterfly of Change",
-      "instruction": "As you color this butterfly, reflect on the transformations you're experiencing in your healing journey.",
-      "image": "image3-33.png"
+      "title": "Day 17 of 30",
+      "subtitle": "Thankful, Grateful, Blessed - Affirmation Art",
+      "instruction": "BEFORE COLORING:\nSpeak these words aloud: \"I am thankful, grateful, and blessed\"\n\nCOLOR MINDFULLY:\n• Say each word as you color it\n• Choose colors that feel uplifting\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child feels:",
+      "image": "thankful-new.png"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 18 of 30",
+      "subtitle": "Somatic Practice: Heart Coherence Breathing",
+      "prompts": [
+        "Breathing with your heart calms your inner child.\n\nINSTRUCTIONS:\n1. Place hand on heart\n2. Breathe in for 5 counts, out for 5 counts\n3. Imagine breathing through your heart\n4. Think of a moment you felt loved/safe\n5. Continue for 5 minutes",
+        "AFTER PRACTICE:\nMy heart wants me to know:",
+        "My inner child feels:"
+      ],
+      "affirmations": ["My heart is a safe home"]
+    },
+    {
+      "type": "free-journal",
+      "title": "Day 19 of 30",
+      "subtitle": "Letter To Your Younger Self at a Difficult Age",
+      "instruction": "Choose an age when you struggled most.\n\nDear ________ at age ____,\n\nI wish I could have told you then...\n\n\n\n\n\n\n\n\nYou made it. I'm so proud of you.\n\nLove,\n_____________________"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 20 of 30",
+      "subtitle": "Celebrating This Week",
+      "prompts": [
+        "3 WAYS I SHOWED UP:\n1.\n2.\n3.",
+        "SELF-COMPASSION:\nI forgive myself for:",
+        "I honor myself for:",
+        "SMALL VICTORY:"
+      ],
+      "affirmations": ["My inner child celebrates with me"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 21 of 30",
+      "subtitle": "WEEK 3 COMPLETE!",
+      "prompts": [
+        "PATTERNS NOTICED:",
+        "INNER CHILD TAUGHT ME:",
+        "WEEK 4 INTENTION:"
+      ],
+      "affirmations": ["I integrate my healing"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 22 of 30",
+      "subtitle": "WEEK 4: Reparenting & Integration",
+      "prompts": [
+        "PATTERN I'M BREAKING:\nOld pattern:",
+        "New response:",
+        "GOAL I'M NURTURING:\nWhat I'm working toward:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 22 of 30 (continued)",
+      "subtitle": "Inner Child Check-In",
+      "prompts": [
+        "How my healed self approaches it:",
+        "INNER CHILD CHECK-IN:\nHow you feel about this:"
+      ],
+      "affirmations": ["I parent myself with love"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 23 of 30",
+      "subtitle": "EFT for Integration",
+      "prompts": [
+        "SETUP (Karate Chop - say 3x):\n\"Even though healing is ongoing, I deeply accept and love myself\"",
+        "TAP EACH POINT 5-7 TIMES:\n• Eyebrow: \"I've come so far...\"\n• Side Eye: \"I honor my journey...\"\n• Under Eye: \"I integrate all of me...\"\n• Under Nose: \"The wounded and healed...\"\n• Chin: \"I am whole...\"\n• Collarbone: \"My inner child trusts me...\"\n• Under Arm: \"We heal together...\"\n• Top Head: \"I am complete as I am...\"",
+        "AFTER TAPPING - I feel:"
+      ],
+      "affirmations": ["I integrate all parts of myself"]
+    },
+    {
+      "type": "activity",
+      "title": "Day 24 of 30",
+      "subtitle": "Hand Mapping - Healing Words & Colors",
+      "instruction": "BEFORE COLORING:\nTrace your hand on the page or use the template.\nMy favorite healing words:\nMy favorite colors:\n\nFILL YOUR HAND:\n• Write healing words inside\n• Fill with your favorite colors\n• Each finger can hold different emotions/words\n• 10-15 minutes\n\nAFTER CREATING:\nMy hand holds:\nMy inner child feels:",
+      "image": "hand-new.png",
+      "purpose": "I hold my healing in my hands"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 25 of 30",
+      "subtitle": "Somatic Practice: Vagal Toning (Humming)",
+      "prompts": [
+        "Humming vibrations soothe your nervous system and inner child.\n\nINSTRUCTIONS:\n1. Sit comfortably, hand on chest\n2. Take deep breath, hum on exhale\n3. Feel vibration in chest/throat\n4. Repeat 10 times\n5. Notice the calming effect",
+        "AFTER PRACTICE:\nMy body feels:",
+        "My inner child feels:"
+      ],
+      "affirmations": ["My voice calms and heals me"]
+    },
+    {
+      "type": "free-journal",
+      "title": "Day 26 of 30",
+      "subtitle": "Letter From Your Future Healed Self",
+      "instruction": "Write from a place of wholeness.\n\nDear Present Me,\n\nI'm writing from a place of healing to tell you...\n\n\n\n\n\n\n\n\nYou're doing beautifully,\nFuture You"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 27 of 30",
+      "subtitle": "Celebrating This Week",
+      "prompts": [
+        "3 WAYS I SHOWED UP:\n1.\n2.\n3.",
+        "SELF-COMPASSION:\nI forgive myself for:",
+        "I honor myself for:",
+        "SMALL VICTORY:"
+      ],
+      "affirmations": ["I honor my entire journey"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 28 of 30",
+      "subtitle": "WEEK 4 COMPLETE!",
+      "prompts": [
+        "PATTERNS NOTICED:",
+        "INNER CHILD TAUGHT ME:",
+        "FINAL WEEK INTENTION:"
+      ],
+      "affirmations": ["I am ready to complete this journey"]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 29 of 30",
+      "subtitle": "Reflecting on Your Journey",
+      "prompts": [
+        "WHEN I STARTED:\nI felt:\nI believed:",
+        "NOW I UNDERSTAND:",
+        "MY INNER CHILD AND I:"
+      ]
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 29 of 30 (continued)",
+      "subtitle": "Pattern Recognition",
+      "prompts": [
+        "PATTERNS I'VE IDENTIFIED:",
+        "PATTERNS I'M RELEASING:"
+      ],
+      "affirmations": ["I honor how far I've come"]
+    },
+    {
+      "type": "free-journal",
+      "title": "Day 30 of 30",
+      "subtitle": "JOURNEY COMPLETE! - Final Letter to Your Inner Child",
+      "instruction": "Dear Little One,\n\nAfter 30 days together, here's my commitment to you...\n\n\n\n\n\n\n\n\n\n\nI will always be here for you.\n\nWith eternal love,\n_____________________"
     },
     {
       "type": "coloring",
       "title": "Growth & Nurturing",
       "subtitle": "Flower Garden",
-      "instruction": "Each flower represents a quality you're nurturing within yourself. Color them with care.",
-      "image": "image4-31.png"
+      "instruction": "Each flower represents a quality you're nurturing within yourself. Color them with care and intention.",
+      "image": "flower-new.png"
     },
     {
-      "type": "journal-prompt",
-      "title": "Meeting Your Inner Child",
-      "prompts": [
-        "What did you love to do as a child?",
-        "What made you feel safe and happy?",
-        "What did you need but didn't receive?",
-        "What would your younger self want to hear from you today?"
+      "type": "closing",
+      "title": "What's Next",
+      "content": [
+        "Congratulations on completing 30 days!",
+        "",
+        "CONTINUE YOUR HEALING",
+        "• Revisit favorite prompts",
+        "• Keep evening journaling",
+        "• Practice art therapy",
+        "• Use EFT when needed",
+        "• Write to your inner child",
+        "",
+        "REMEMBER",
+        "Healing isn't linear. Your inner child is proud of you."
       ]
     },
     {
-      "type": "journal-prompt",
-      "title": "Emotional Awareness",
-      "prompts": [
-        "What emotions am I feeling today?",
-        "Where do I feel these emotions in my body?",
-        "What is my inner child trying to tell me?",
-        "How can I nurture myself today?"
-      ]
-    },
-    {
-      "type": "journal-prompt",
-      "title": "Self-Compassion Practice",
-      "prompts": [
-        "What would I say to comfort a hurting child?",
-        "How can I offer that same compassion to myself?",
-        "What does my inner child need to feel loved?",
-        "What small act of kindness can I give myself today?"
-      ]
-    },
-    {
-      "type": "journal-prompt",
-      "title": "Letting Go & Forgiveness",
-      "prompts": [
-        "What am I ready to release?",
-        "What no longer serves my growth?",
-        "Who or what do I need to forgive (including myself)?",
-        "What does healing look like for me?"
+      "type": "closing",
+      "title": "Disclaimer & Resources",
+      "content": [
+        "DISCLAIMER",
+        "",
+        "This journal is for personal growth only. It is not a substitute for professional therapy.",
+        "",
+        "If you experience overwhelming emotions or severe distress, contact a mental health professional immediately.",
+        "",
+        "",
+        "CRISIS SUPPORT",
+        "",
+        "Vandrevala Foundation",
+        "Free Counseling: https://www.vandrevalafoundation.com/free-counseling",
+        "",
+        "Tele MANAS",
+        "https://telemanas.mohfw.gov.in/home",
+        "Toll-Free: 14416 OR 1-800 891 4416",
+        "",
+        "",
+        "TERMS",
+        "",
+        "For personal use only. No reproduction without permission. Healing varies for each individual. Use at your own pace."
       ]
     },
     {
       "type": "free-journal",
       "title": "Free Expression",
       "instruction": "Use these pages to write, draw, or express yourself in any way that feels right."
-    },
-    {
-      "type": "closing",
-      "title": "Your Healing Continues",
-      "content": [
-        "Remember:",
-        "• Healing is not linear - there will be ups and downs",
-        "• Every step you take matters, no matter how small",
-        "• Your inner child deserves love, patience, and compassion",
-        "• You are worthy of healing and happiness",
-        "",
-        "Continue to:",
-        "• Journal regularly",
-        "• Practice self-compassion",
-        "• Seek support when needed",
-        "• Celebrate your progress",
-        "",
-        "You are doing beautiful, important work. Keep going. 💜"
-      ]
     }
   ]
 }

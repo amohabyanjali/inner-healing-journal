@@ -12,6 +12,27 @@ class JournalPDFGenerator {
     this.outputDir = options.outputDir || path.join(__dirname, '../output');
     this.format = options.format || 'A4';
     this.grayscale = options.grayscale || false;
+    this.version = options.version || this.getNextVersion();
+  }
+
+  getNextVersion() {
+    // Find next version number based on existing files
+    const outputDir = this.outputDir;
+    if (!fs.existsSync(outputDir)) return 1;
+
+    const files = fs.readdirSync(outputDir);
+    const versionPattern = /inner-child-journal.*-v(\d+)/;
+    let maxVersion = 0;
+
+    files.forEach(file => {
+      const match = file.match(versionPattern);
+      if (match) {
+        const ver = parseInt(match[1], 10);
+        if (ver > maxVersion) maxVersion = ver;
+      }
+    });
+
+    return maxVersion + 1;
   }
 
   async generate() {
@@ -49,12 +70,12 @@ class JournalPDFGenerator {
       waitUntil: 'networkidle0'
     });
 
-    // Generate PDF filename
+    // Generate PDF filename with version
     const timestamp = new Date().toISOString().split('T')[0];
     const studentSlug = this.studentName
       ? this.studentName.toLowerCase().replace(/\s+/g, '-')
-      : 'blank';
-    const pdfFilename = `inner-child-journal-${studentSlug}-${timestamp}.pdf`;
+      : 'amoha';
+    const pdfFilename = `inner-child-journal-${studentSlug}-v${this.version}-${timestamp}.pdf`;
     const pdfPath = path.join(this.outputDir, pdfFilename);
 
     // Ensure output directory exists
@@ -92,6 +113,7 @@ class JournalPDFGenerator {
     console.log('\n✅ PDF generated successfully!');
     console.log(`📍 Location: ${pdfPath}`);
     console.log(`📊 Format: ${this.format}`);
+    console.log(`🔢 Version: ${this.version}`);
     if (this.studentName) {
       console.log(`👤 Personalized for: ${this.studentName}`);
     }

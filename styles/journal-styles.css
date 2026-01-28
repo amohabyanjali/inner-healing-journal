@@ -3,10 +3,11 @@
 
 :root {
   /* Purple Color Palette */
-  --purple-dark: #6B5B95;
-  --purple-medium: #8B7DA8;
-  --purple-light: #A294BA;
-  --purple-lighter: #B8A9D4;
+  --purple-dark: #824b82;
+  --purple-medium: #9b6b9b;
+  --purple-light: #b48bb4;
+  --purple-lighter: #d4b8d4;
+  --purple-deep: #5a2d5a;
 
   /* Accent Colors */
   --gold: #F4D03F;
@@ -15,11 +16,11 @@
   --cream: #FFF8E7;
 
   /* Grid Pattern */
-  --grid-color: rgba(255, 255, 255, 0.15);
+  --grid-color: rgba(255, 255, 255, 0.2);
 
   /* Spacing */
   --page-margin: 0.75in;
-  --content-padding: 40px;
+  --content-padding: 35px;
 }
 
 @page {
@@ -35,7 +36,7 @@
 
 body {
   font-family: 'Georgia', 'Times New Roman', serif;
-  color: #333;
+  color: var(--purple-dark);
   line-height: 1.6;
 }
 
@@ -47,15 +48,21 @@ body {
   page-break-after: always;
   background: white;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .page:last-child {
   page-break-after: auto;
 }
 
-/* Purple Grid Background */
+/* Ensure content doesn't overflow */
+.page > * {
+  max-height: 100%;
+}
+
+/* Purple Background - Clean Professional Look */
 .purple-background {
-  background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-medium) 100%);
+  background: linear-gradient(180deg, #f8f4fc 0%, #e8dff0 50%, #d4c4e0 100%);
   position: relative;
 }
 
@@ -66,126 +73,244 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image:
-    linear-gradient(var(--grid-color) 1px, transparent 1px),
-    linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-  background-size: 30px 30px;
-  opacity: 0.5;
+  background: radial-gradient(ellipse at 50% 0%, rgba(130, 75, 130, 0.1) 0%, transparent 60%);
+  pointer-events: none;
 }
 
-/* Decorative Stars */
-.stars {
+/* Decorative Hearts */
+.hearts {
   position: absolute;
   width: 100%;
   height: 100%;
   pointer-events: none;
+  z-index: 1;
 }
 
-.star {
+.heart {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: white;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  opacity: 0.8;
+  background: var(--purple-dark);
+  transform: rotate(-45deg);
+  opacity: 0.15;
 }
 
-.star-1 { top: 15%; left: 10%; transform: scale(0.6); }
-.star-2 { top: 20%; right: 15%; transform: scale(0.8); }
-.star-3 { bottom: 25%; left: 20%; transform: scale(0.5); }
-.star-4 { bottom: 15%; right: 10%; transform: scale(0.9); }
-.star-5 { top: 40%; left: 85%; transform: scale(0.7); }
-.star-6 { top: 60%; left: 5%; transform: scale(0.6); }
-
-/* Decorative Curved Lines */
-.curved-line {
+.heart::before,
+.heart::after {
+  content: '';
   position: absolute;
-  border: 3px dashed white;
+  width: 20px;
+  height: 20px;
+  background: var(--purple-dark);
   border-radius: 50%;
+}
+
+.heart::before {
+  top: -10px;
+  left: 0;
+}
+
+.heart::after {
+  top: 0;
+  left: 10px;
+}
+
+.heart-1 { top: 8%; left: 8%; transform: rotate(-45deg) scale(0.8); }
+.heart-2 { top: 15%; right: 10%; transform: rotate(-45deg) scale(1.2); }
+.heart-3 { bottom: 15%; left: 12%; transform: rotate(-45deg) scale(0.9); }
+.heart-4 { bottom: 10%; right: 8%; transform: rotate(-45deg) scale(1); }
+.heart-5 { top: 40%; right: 5%; transform: rotate(-45deg) scale(0.7); }
+.heart-6 { top: 60%; left: 5%; transform: rotate(-45deg) scale(0.6); }
+
+/* Decorative Border Frame */
+.cover-frame {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  border: 3px solid var(--purple-dark);
+  border-radius: 20px;
+  z-index: 0;
+}
+
+.cover-frame-inner {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  right: 45px;
+  bottom: 45px;
+  border: 1px solid var(--purple-medium);
+  border-radius: 15px;
+}
+
+/* Corner Decorations */
+.corner-decoration {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.corner-decoration svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--purple-dark);
   opacity: 0.6;
 }
 
-.curved-line-top {
-  top: -100px;
-  left: -100px;
-  width: 400px;
-  height: 400px;
-  border-color: transparent white transparent transparent;
-}
-
-.curved-line-bottom {
-  bottom: -100px;
-  right: -100px;
-  width: 400px;
-  height: 400px;
-  border-color: transparent transparent white transparent;
-}
+.corner-tl { top: 50px; left: 50px; }
+.corner-tr { top: 50px; right: 50px; transform: rotate(90deg); }
+.corner-bl { bottom: 50px; left: 50px; transform: rotate(-90deg); }
+.corner-br { bottom: 50px; right: 50px; transform: rotate(180deg); }
 
 /* Cover Page */
 .cover-content {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   text-align: center;
-  padding: var(--content-padding);
+  padding: 80px 60px;
+}
+
+.cover-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.cover-icon svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--purple-dark);
 }
 
 .cover-title {
-  font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 42px;
+  font-weight: normal;
+  color: var(--purple-dark);
+  margin-bottom: 15px;
+  line-height: 1.3;
+  letter-spacing: 3px;
+}
+
+.cover-title-main {
+  display: block;
   font-size: 48px;
   font-weight: bold;
-  color: var(--gold);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  margin-bottom: 30px;
-  line-height: 1.2;
+  color: var(--purple-deep);
+  margin-bottom: 5px;
 }
 
 .cover-subtitle {
   font-size: 20px;
-  color: white;
+  color: var(--purple-medium);
   font-style: italic;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.cover-divider {
+  width: 150px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--purple-dark), transparent);
+  margin: 25px 0;
+}
+
+.cover-quote {
+  font-size: 15px;
+  color: var(--purple-dark);
+  font-style: italic;
+  max-width: 380px;
+  line-height: 1.7;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-left: 3px solid var(--purple-medium);
+  background: rgba(130, 75, 130, 0.05);
+  border-radius: 0 10px 10px 0;
 }
 
 .personalization {
   font-size: 18px;
-  color: white;
-  margin-top: 40px;
+  color: var(--purple-dark);
+  margin-top: 20px;
+}
+
+.personalization-label {
+  display: block;
+  font-size: 14px;
+  color: var(--purple-medium);
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .personalization-line {
   display: inline-block;
-  border-bottom: 2px solid white;
-  min-width: 250px;
-  margin-left: 10px;
-  padding-bottom: 5px;
+  border-bottom: 2px solid var(--purple-dark);
+  min-width: 300px;
+  padding-bottom: 8px;
+  color: var(--purple-deep);
+  font-size: 22px;
+}
+
+.cover-footer {
+  position: absolute;
+  bottom: 90px;
+  font-size: 12px;
+  color: var(--purple-medium);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cover-brand {
+  position: absolute;
+  bottom: 70px;
+  font-size: 14px;
+  color: var(--purple-dark);
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 /* Content Pages */
 .content-wrapper {
-  padding: var(--content-padding);
-  min-height: calc(297mm - (2 * var(--content-padding)));
+  padding: 25px var(--content-padding);
+  padding-bottom: 45px;
+  max-height: calc(297mm - 50px);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Prevent content cutoff */
+.page-header,
+.activity-instruction,
+.activity-purpose,
+.text-content,
+.affirmations {
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .page-header {
   text-align: center;
-  margin-bottom: 30px;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
   border-bottom: 2px solid var(--purple-medium);
 }
 
 .page-title {
-  font-size: 32px;
+  font-size: 26px;
   color: var(--purple-dark);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .page-subtitle {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--purple-medium);
   font-style: italic;
 }
@@ -194,29 +319,37 @@ body {
 .activity-instruction {
   background: var(--cream);
   border-left: 4px solid var(--purple-medium);
-  padding: 20px;
-  margin: 20px 0;
-  font-size: 16px;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 15px;
   font-style: italic;
+  color: var(--purple-dark);
 }
 
 .activity-image {
   width: 100%;
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 95%;
+  max-height: 350px;
+  height: auto;
+  margin: 20px auto;
   display: block;
-  border: 2px solid var(--purple-light);
-  border-radius: 8px;
+  border: 4px solid var(--purple-dark);
+  border-radius: 15px;
+  object-fit: contain;
+  box-shadow: 0 4px 15px rgba(130, 75, 130, 0.2);
+  background: white;
+  padding: 10px;
 }
 
 .activity-purpose {
   background: var(--purple-lighter);
-  color: white;
+  color: var(--purple-dark);
   padding: 15px;
   border-radius: 8px;
   margin-top: 20px;
   font-size: 14px;
   text-align: center;
+  font-weight: 500;
 }
 
 /* Coloring Pages */
@@ -226,29 +359,38 @@ body {
 
 .coloring-image {
   width: 100%;
-  max-width: 650px;
+  max-width: 95%;
+  height: auto;
+  max-height: 400px;
   margin: 20px auto;
   display: block;
-  padding: 20px;
+  border: 4px solid var(--purple-dark);
+  border-radius: 15px;
+  object-fit: contain;
+  box-shadow: 0 4px 15px rgba(130, 75, 130, 0.2);
+  background: white;
+  padding: 10px;
 }
 
 /* Journal Prompts */
 .journal-prompts {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .prompt {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
   page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .prompt-question {
-  font-size: 18px;
+  font-size: 13px;
   color: var(--purple-dark);
   font-weight: bold;
-  margin-bottom: 15px;
-  padding-left: 20px;
+  margin-bottom: 6px;
+  padding-left: 16px;
   position: relative;
+  line-height: 1.3;
 }
 
 .prompt-question::before {
@@ -259,46 +401,67 @@ body {
 }
 
 .prompt-lines {
-  border: 1px solid var(--purple-light);
-  border-radius: 4px;
-  padding: 15px;
-  min-height: 150px;
+  border: 2px solid var(--purple-light);
+  border-radius: 10px;
+  padding: 5px 12px;
+  min-height: 88px;
   background-image: repeating-linear-gradient(
-    transparent,
-    transparent 29px,
-    var(--purple-lighter) 29px,
-    var(--purple-lighter) 30px
+    transparent 0px,
+    transparent 21px,
+    var(--purple-light) 21px,
+    var(--purple-light) 22px
   );
-  background-size: 100% 30px;
+  background-size: 100% 22px;
+  background-position: 0 0;
+  background-color: #fff;
+}
+
+/* Affirmations */
+.affirmations {
+  margin-top: 12px;
+  padding: 12px;
+  background: var(--cream);
+  border-radius: 8px;
+}
+
+.affirmation {
+  font-size: 13px;
+  color: var(--purple-dark);
+  font-style: italic;
+  margin-bottom: 5px;
 }
 
 /* Free Journal Pages */
 .free-journal-instruction {
-  text-align: center;
-  color: var(--purple-medium);
+  text-align: left;
+  color: var(--purple-dark);
   font-style: italic;
   margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .free-journal-space {
-  border: 2px dashed var(--purple-light);
-  border-radius: 8px;
-  min-height: 700px;
+  border: 2px solid var(--purple-light);
+  border-radius: 10px;
+  min-height: 420px;
   background-image: repeating-linear-gradient(
-    transparent,
-    transparent 29px,
-    var(--purple-lighter) 29px,
-    var(--purple-lighter) 30px
+    transparent 0px,
+    transparent 21px,
+    var(--purple-light) 21px,
+    var(--purple-light) 22px
   );
-  background-size: 100% 30px;
-  padding: 20px;
+  background-size: 100% 22px;
+  background-position: 0 0;
+  background-color: #fff;
+  padding: 5px 12px;
 }
 
 /* Introduction & Closing Pages */
 .text-content {
   font-size: 16px;
   line-height: 1.8;
-  color: #444;
+  color: var(--purple-dark);
 }
 
 .text-content p {
@@ -344,12 +507,14 @@ body {
 /* Footer */
 .page-footer {
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 10px;
-  color: #999;
+  font-size: 11px;
+  color: var(--purple-medium);
+  font-style: italic;
+  letter-spacing: 0.5px;
 }
 
 /* Print Styles */
