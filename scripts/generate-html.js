@@ -17,7 +17,7 @@ class JournalHTMLGenerator {
   }
 
   generateCoverPage(section) {
-    const personalization = this.studentName || '________________';
+    const personalization = this.studentName || '';
 
     return `
     <div class="page purple-background">
