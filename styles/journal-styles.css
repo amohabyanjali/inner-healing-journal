@@ -170,17 +170,18 @@ body {
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   text-align: center;
-  padding: 80px 60px;
+  padding: 60px 60px 80px;
 }
 
 .cover-icon {
-  width: 120px;
-  height: 120px;
-  margin-bottom: 25px;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .cover-icon .amoha-logo {
@@ -191,7 +192,7 @@ body {
 
 .cover-title {
   font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: normal;
   color: var(--purple-dark);
   margin-bottom: 15px;
@@ -201,17 +202,17 @@ body {
 
 .cover-title-main {
   display: block;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: bold;
   color: var(--purple-deep);
   margin-bottom: 5px;
 }
 
 .cover-subtitle {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--purple-medium);
   font-style: italic;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   letter-spacing: 1px;
 }
 
@@ -223,29 +224,29 @@ body {
 }
 
 .cover-quote {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--purple-dark);
   font-style: italic;
-  max-width: 380px;
+  max-width: 420px;
   line-height: 1.7;
-  margin-bottom: 50px;
-  padding: 20px;
-  border-left: 3px solid var(--purple-medium);
+  margin-bottom: 35px;
+  padding: 20px 25px;
+  border-left: 4px solid var(--purple-medium);
   background: rgba(130, 75, 130, 0.05);
   border-radius: 0 10px 10px 0;
 }
 
 .personalization {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--purple-dark);
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .personalization-label {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--purple-medium);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -253,10 +254,10 @@ body {
 .personalization-line {
   display: inline-block;
   border-bottom: 2px solid var(--purple-dark);
-  min-width: 300px;
+  min-width: 320px;
   padding-bottom: 8px;
   color: var(--purple-deep);
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .cover-footer {
@@ -271,17 +272,69 @@ body {
 .cover-brand {
   position: absolute;
   bottom: 70px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--purple-dark);
   font-weight: bold;
   letter-spacing: 1px;
 }
 
+/* Left side decorative elements */
+.cover-left-decoration {
+  position: absolute;
+  left: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.cover-left-decoration .deco-star {
+  width: 20px;
+  height: 20px;
+  color: var(--purple-medium);
+  opacity: 0.6;
+}
+
+.cover-left-decoration .deco-line {
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(180deg, transparent, var(--purple-medium), transparent);
+}
+
+/* Right side decorative elements */
+.cover-right-decoration {
+  position: absolute;
+  right: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.cover-right-decoration .deco-star {
+  width: 20px;
+  height: 20px;
+  color: var(--purple-medium);
+  opacity: 0.6;
+}
+
+.cover-right-decoration .deco-line {
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(180deg, transparent, var(--purple-medium), transparent);
+}
+
 /* Content Pages */
 .content-wrapper {
-  padding: 25px var(--content-padding);
+  padding: 20px var(--content-padding);
   padding-bottom: 45px;
-  max-height: calc(297mm - 50px);
+  max-height: calc(297mm - 80px);
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -291,26 +344,30 @@ body {
 .activity-instruction,
 .activity-purpose,
 .text-content,
-.affirmations {
+.affirmations,
+.journal-prompts,
+.prompt,
+.free-journal-instruction,
+.free-journal-space {
   page-break-inside: avoid;
   break-inside: avoid;
 }
 
 .page-header {
   text-align: center;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
   border-bottom: 2px solid var(--purple-medium);
 }
 
 .page-title {
-  font-size: 26px;
+  font-size: 32px;
   color: var(--purple-dark);
   margin-bottom: 8px;
 }
 
 .page-subtitle {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--purple-medium);
   font-style: italic;
 }
@@ -320,16 +377,16 @@ body {
   background: var(--cream);
   border-left: 4px solid var(--purple-medium);
   padding: 15px;
-  margin: 15px 0;
-  font-size: 15px;
+  margin: 20px 0;
+  font-size: 17px;
   font-style: italic;
   color: var(--purple-dark);
 }
 
 .activity-image {
   width: 100%;
-  max-width: 95%;
-  max-height: 350px;
+  max-width: 90%;
+  max-height: 85%;
   height: auto;
   margin: 20px auto;
   display: block;
@@ -338,7 +395,51 @@ body {
   object-fit: contain;
   box-shadow: 0 4px 15px rgba(130, 75, 130, 0.2);
   background: white;
-  padding: 10px;
+  padding: 15px;
+}
+
+/* Full page image container */
+.full-page-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 297mm;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.full-page-image .image-title {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--purple-dark);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.full-page-image .image-frame {
+  width: 100%;
+  height: calc(100% - 60px);
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--purple-medium);
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.full-page-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .activity-purpose {
@@ -347,7 +448,7 @@ body {
   padding: 15px;
   border-radius: 8px;
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   font-weight: 500;
 }
@@ -358,39 +459,34 @@ body {
 }
 
 .coloring-image {
-  width: 100%;
-  max-width: 95%;
+  width: auto;
   height: auto;
-  max-height: 400px;
-  margin: 20px auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
   display: block;
-  border: 4px solid var(--purple-dark);
-  border-radius: 15px;
   object-fit: contain;
-  box-shadow: 0 4px 15px rgba(130, 75, 130, 0.2);
-  background: white;
-  padding: 10px;
 }
 
 /* Journal Prompts */
 .journal-prompts {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .prompt {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   page-break-inside: avoid;
   break-inside: avoid;
 }
 
 .prompt-question {
-  font-size: 13px;
+  font-size: 18px;
   color: var(--purple-dark);
   font-weight: bold;
-  margin-bottom: 6px;
-  padding-left: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
   position: relative;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 .prompt-question::before {
@@ -403,32 +499,33 @@ body {
 .prompt-lines {
   border: 2px solid var(--purple-light);
   border-radius: 10px;
-  padding: 5px 12px;
-  min-height: 88px;
+  padding: 10px 15px;
+  height: 96px;
   background-image: repeating-linear-gradient(
     transparent 0px,
-    transparent 21px,
-    var(--purple-light) 21px,
-    var(--purple-light) 22px
+    transparent 23px,
+    var(--purple-light) 23px,
+    var(--purple-light) 24px
   );
-  background-size: 100% 22px;
+  background-size: 100% 24px;
   background-position: 0 0;
   background-color: #fff;
+  box-sizing: border-box;
 }
 
 /* Affirmations */
 .affirmations {
-  margin-top: 12px;
-  padding: 12px;
+  margin-top: 20px;
+  padding: 15px;
   background: var(--cream);
   border-radius: 8px;
 }
 
 .affirmation {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--purple-dark);
   font-style: italic;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 /* Free Journal Pages */
@@ -436,30 +533,31 @@ body {
   text-align: left;
   color: var(--purple-dark);
   font-style: italic;
-  margin-bottom: 30px;
-  font-size: 16px;
+  margin-bottom: 20px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
 .free-journal-space {
   border: 2px solid var(--purple-light);
   border-radius: 10px;
-  min-height: 420px;
+  height: 288px;
   background-image: repeating-linear-gradient(
     transparent 0px,
-    transparent 21px,
-    var(--purple-light) 21px,
-    var(--purple-light) 22px
+    transparent 23px,
+    var(--purple-light) 23px,
+    var(--purple-light) 24px
   );
-  background-size: 100% 22px;
+  background-size: 100% 24px;
   background-position: 0 0;
   background-color: #fff;
   padding: 5px 12px;
+  box-sizing: border-box;
 }
 
 /* Introduction & Closing Pages */
 .text-content {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   color: var(--purple-dark);
 }
@@ -508,13 +606,23 @@ body {
 .page-footer {
   position: absolute;
   bottom: 15px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 11px;
+  left: 35px;
+  right: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
   color: var(--purple-medium);
   font-style: italic;
   letter-spacing: 0.5px;
+}
+
+.footer-brand {
+  text-align: left;
+}
+
+.footer-page {
+  text-align: right;
 }
 
 /* Print Styles */

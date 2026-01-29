@@ -149,12 +149,23 @@
       "affirmations": ["I am safe as I rest and heal"]
     },
     {
-      "type": "activity",
+      "type": "coloring",
+      "title": "Day 2 of 30",
+      "subtitle": "Creative Flower Coloring",
+      "instruction": "BEFORE COLORING:\nTake 3 deep breaths.\nWhat emotions want to flow through color tonight?\n\nCOLOR MINDFULLY:\n• Let your intuition guide your color choices\n• Each petal holds a part of your healing\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child enjoyed:",
+      "image": "day-2.png"
+    },
+    {
+      "type": "journal-prompt",
       "title": "Day 3 of 30",
       "subtitle": "Free Doodling - Creative Release",
-      "instruction": "No rules. No judgment. Just let your hand move.\n\nBEFORE YOU BEGIN:\nTake 3 deep breaths.\nWhat emotion wants to come out tonight?\nSet a timer for 10-15 minutes and let go.",
-      "image": "hand-new.png",
-      "purpose": "AFTER DOODLING: What came out on the page? While doodling, I felt? My inner child? Colors/shapes I used?"
+      "prompts": [
+        "No rules. No judgment. Just let your hand move.\n\nBEFORE YOU BEGIN:\nTake 3 deep breaths.\nWhat emotion wants to come out tonight?\nSet a timer for 10-15 minutes and let go.",
+        "AFTER DOODLING:\nWhat came out on the page?",
+        "While doodling, I felt:",
+        "Colors/shapes I used:"
+      ],
+      "affirmations": ["I express myself freely"]
     },
     {
       "type": "journal-prompt",
@@ -246,10 +257,22 @@
     },
     {
       "type": "coloring",
+      "title": "Day 9 of 30",
+      "subtitle": "Butterfly of Freedom",
+      "instruction": "BEFORE COLORING:\nThe butterfly represents freedom from shame.\nWhat are you releasing tonight?\n\nCOLOR MINDFULLY:\n• Each wing holds a part of your freedom\n• Choose colors that feel liberating\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child is free from:",
+      "image": "day-9.png"
+    },
+    {
+      "type": "journal-prompt",
       "title": "Day 10 of 30",
-      "subtitle": "Butterfly of Transformation",
-      "instruction": "BEFORE COLORING:\nThe butterfly represents transformation.\nWhat am I transforming within myself?\nColors that feel healing:\n\nCOLOR MINDFULLY:\n• Each wing holds a part of your journey\n• Choose colors intuitively\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child is transforming by:",
-      "image": "butterfly-new.png"
+      "subtitle": "Transformation Reflection",
+      "prompts": [
+        "What am I transforming within myself?",
+        "Colors that feel healing to me:",
+        "My inner child is transforming by:",
+        "Today I release:"
+      ],
+      "affirmations": ["I embrace my transformation"]
     },
     {
       "type": "journal-prompt",
@@ -324,10 +347,22 @@
     },
     {
       "type": "coloring",
-      "title": "Day 17 of 30",
-      "subtitle": "Thankful, Grateful, Blessed - Affirmation Art",
+      "title": "Day 16 of 30",
+      "subtitle": "Thankful, Grateful, Blessed",
       "instruction": "BEFORE COLORING:\nSpeak these words aloud: \"I am thankful, grateful, and blessed\"\n\nCOLOR MINDFULLY:\n• Say each word as you color it\n• Choose colors that feel uplifting\n• 10-15 minutes\n\nAFTER CREATING:\nWhile coloring, I felt:\nMy inner child feels:",
-      "image": "thankful-new.png"
+      "image": "day-16.png"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 17 of 30",
+      "subtitle": "Gratitude Reflection",
+      "prompts": [
+        "Today I am thankful for:",
+        "Today I am grateful for:",
+        "Today I feel blessed because:",
+        "My inner child feels:"
+      ],
+      "affirmations": ["I am thankful, grateful, and blessed"]
     },
     {
       "type": "journal-prompt",
@@ -402,11 +437,23 @@
     },
     {
       "type": "activity",
-      "title": "Day 24 of 30",
-      "subtitle": "Hand Mapping - Healing Words & Colors",
-      "instruction": "BEFORE COLORING:\nTrace your hand on the page or use the template.\nMy favorite healing words:\nMy favorite colors:\n\nFILL YOUR HAND:\n• Write healing words inside\n• Fill with your favorite colors\n• Each finger can hold different emotions/words\n• 10-15 minutes\n\nAFTER CREATING:\nMy hand holds:\nMy inner child feels:",
-      "image": "hand-new.png",
+      "title": "Day 23 of 30",
+      "subtitle": "Hand Mapping - Healing Words",
+      "instruction": "BEFORE YOU BEGIN:\nTrace your hand on the page or use the template.\nMy favorite healing words:\nMy favorite colors:\n\nFILL YOUR HAND:\n• Write healing words inside\n• Fill with your favorite colors\n• Each finger can hold different emotions/words\n• 10-15 minutes\n\nAFTER CREATING:\nMy hand holds:\nMy inner child feels:",
+      "image": "day-23.png",
       "purpose": "I hold my healing in my hands"
+    },
+    {
+      "type": "journal-prompt",
+      "title": "Day 24 of 30",
+      "subtitle": "Healing Hands Reflection",
+      "prompts": [
+        "My favorite healing words:",
+        "My hands hold the power to:",
+        "My inner child feels safe when:",
+        "Today I choose to:"
+      ],
+      "affirmations": ["I hold my healing in my hands"]
     },
     {
       "type": "journal-prompt",
@@ -472,14 +519,7 @@
       "type": "free-journal",
       "title": "Day 30 of 30",
       "subtitle": "JOURNEY COMPLETE! - Final Letter to Your Inner Child",
-      "instruction": "Dear Little One,\n\nAfter 30 days together, here's my commitment to you...\n\n\n\n\n\n\n\n\n\n\nI will always be here for you.\n\nWith eternal love,\n_____________________"
-    },
-    {
-      "type": "coloring",
-      "title": "Growth & Nurturing",
-      "subtitle": "Flower Garden",
-      "instruction": "Each flower represents a quality you're nurturing within yourself. Color them with care and intention.",
-      "image": "flower-new.png"
+      "instruction": "Dear Little One,\n\nAfter 30 days together, here's my commitment to you...\n\n\n\n\n\nI will always be here for you.\n\nWith eternal love,\n_____________________\n\n○ \"My inner child and I are forever connected\""
     },
     {
       "type": "closing",
@@ -523,11 +563,6 @@
         "",
         "For personal use only. No reproduction without permission. Healing varies for each individual. Use at your own pace."
       ]
-    },
-    {
-      "type": "free-journal",
-      "title": "Free Expression",
-      "instruction": "Use these pages to write, draw, or express yourself in any way that feels right."
     }
   ]
 }

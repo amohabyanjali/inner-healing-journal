@@ -8,6 +8,12 @@ class JournalHTMLGenerator {
     this.outputPath = outputPath;
     this.studentName = studentName;
     this.content = JSON.parse(fs.readFileSync(contentPath, 'utf8'));
+    this.pageNumber = 0;
+  }
+
+  getPageFooter() {
+    this.pageNumber++;
+    return `<div class="page-footer"><span class="footer-brand">Amoha By Anjali</span><span class="footer-page">Page ${this.pageNumber}</span></div>`;
   }
 
   generateCoverPage(section) {
@@ -24,6 +30,20 @@ class JournalHTMLGenerator {
         <div class="heart heart-4"></div>
         <div class="heart heart-5"></div>
         <div class="heart heart-6"></div>
+      </div>
+      <div class="cover-left-decoration">
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <div class="deco-line"></div>
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <div class="deco-line"></div>
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div class="cover-right-decoration">
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <div class="deco-line"></div>
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <div class="deco-line"></div>
+        <svg class="deco-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
       </div>
       <div class="cover-content">
         <div class="cover-icon">
@@ -66,7 +86,7 @@ class JournalHTMLGenerator {
           ${contentParagraphs}
         </div>
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
     </div>`;
   }
 
@@ -83,10 +103,18 @@ class JournalHTMLGenerator {
         <div class="activity-instruction">
           ${section.instruction.replace(/\n/g, '<br>')}
         </div>
-        <img src="${imagePath}" alt="${section.title}" class="activity-image">
         ${section.purpose ? `<div class="activity-purpose">${section.purpose.replace(/\n/g, '<br>')}</div>` : ''}
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
+    </div>
+    <div class="page">
+      <div class="full-page-image">
+        <h2 class="image-title">${section.title}</h2>
+        <div class="image-frame">
+          <img src="${imagePath}" alt="${section.title}">
+        </div>
+      </div>
+      ${this.getPageFooter()}
     </div>`;
   }
 
@@ -103,37 +131,62 @@ class JournalHTMLGenerator {
         <div class="activity-instruction">
           ${section.instruction.replace(/\n/g, '<br>')}
         </div>
-        <img src="${imagePath}" alt="${section.title}" class="coloring-image">
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
+    </div>
+    <div class="page">
+      <div class="full-page-image">
+        <h2 class="image-title">${section.title}</h2>
+        <div class="image-frame">
+          <img src="${imagePath}" alt="${section.title}" class="coloring-image">
+        </div>
+      </div>
+      ${this.getPageFooter()}
     </div>`;
   }
 
   generateJournalPromptPage(section) {
-    const prompts = section.prompts.map(prompt => `
-        <div class="prompt">
-          <div class="prompt-question">${prompt.replace(/\n/g, '<br>')}</div>
-          <div class="prompt-lines"></div>
-        </div>
-    `).join('\n');
+    // Split prompts into pages - max 3 prompts per page to avoid overflow
+    const maxPromptsPerPage = 3;
+    const promptChunks = [];
+
+    for (let i = 0; i < section.prompts.length; i += maxPromptsPerPage) {
+      promptChunks.push(section.prompts.slice(i, i + maxPromptsPerPage));
+    }
 
     const affirmations = section.affirmations ?
       section.affirmations.map(a => `<div class="affirmation">○ "${a}"</div>`).join('\n') : '';
 
-    return `
+    let pages = '';
+
+    promptChunks.forEach((chunk, index) => {
+      const isFirstPage = index === 0;
+      const isLastPage = index === promptChunks.length - 1;
+
+      const prompts = chunk.map(prompt => `
+        <div class="prompt">
+          <div class="prompt-question">${prompt.replace(/\n/g, '<br>')}</div>
+          <div class="prompt-lines"></div>
+        </div>
+      `).join('\n');
+
+      pages += `
     <div class="page">
       <div class="content-wrapper">
         <div class="page-header">
-          <h2 class="page-title">${section.title}</h2>
-          ${section.subtitle ? `<p class="page-subtitle">${section.subtitle}</p>` : ''}
+          <h2 class="page-title">${section.title}${!isFirstPage ? ' (continued)' : ''}</h2>
+          ${isFirstPage && section.subtitle ? `<p class="page-subtitle">${section.subtitle}</p>` : ''}
         </div>
         <div class="journal-prompts">
           ${prompts}
         </div>
-        ${affirmations ? `<div class="affirmations">${affirmations}</div>` : ''}
+        ${isLastPage && affirmations ? `<div class="affirmations">${affirmations}</div>` : ''}
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
     </div>`;
+    });
+
+    return pages;
   }
 
   generateFreeJournalPage(section) {
@@ -153,7 +206,7 @@ class JournalHTMLGenerator {
         </div>
         <div class="free-journal-space"></div>
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
     </div>`;
     }
     return pages;
@@ -182,7 +235,7 @@ class JournalHTMLGenerator {
           ${contentHTML}
         </div>
       </div>
-      <div class="page-footer">Amoha By Anjali</div>
+      ${this.getPageFooter()}
     </div>`;
   }
 
